@@ -768,7 +768,7 @@ $conn->close();
                             <a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span>
                                 <span class="menu-arrow"></span></a>
                             <ul>
-                                <li><a href="employees.html">All Employees</a></li>
+                                <li><a href="employees.php">All Employees</a></li>
                                 <li><a href="holidays.html">Holidays</a></li>
                                 <li>
                                     <a href="leaves.html">Leaves (Admin)
@@ -1231,7 +1231,7 @@ $conn->close();
                         <a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span>
                             <span class="menu-arrow"></span></a>
                         <ul>
-                            <li><a href="employees.html">All Employees</a></li>
+                            <li><a href="employees.php">All Employees</a></li>
                             <li><a href="holidays.html">Holidays</a></li>
                             <li>
                                 <a href="leaves.html">Leaves (Admin)
@@ -1852,7 +1852,7 @@ $conn->close();
                          aria-labelledby="v-pills-employees-tab">
                         <p>Employees</p>
                         <ul>
-                            <li><a href="employees.html">All Employees</a></li>
+                            <li><a href="employees.php">All Employees</a></li>
                             <li><a href="holidays.html">Holidays</a></li>
                             <li>
                                 <a href="leaves.html">Leaves (Admin)
