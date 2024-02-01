@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "avatar": "avatar-02.jpg",
+        "role":"Web Designer",
+        "jobTitle": "Web Developer",
+        "jobDetailsLink": "job-details",
+        "department": "Development",
+        "status": "Offered"
+    },
+    {
+        "id": 2,
+        "name": "Richard Miles",
+        "avatar": "avatar-09.jpg",
+        "role":"Web Developer",
+        "jobTitle": "Web Developer",
+        "jobDetailsLink": "job-details",
+        "department": "Designing",
+        "status": "Offered"
+    },
+    {
+        "id": 3,
+        "name": "John Smith",
+        "avatar": "avatar-10.jpg",
+        "role":"Android Developer",
+        "jobTitle": "Android Developer",
+        "jobDetailsLink": "job-details",
+        "department": "Android",
+        "status": "Offered"
+    }
+]

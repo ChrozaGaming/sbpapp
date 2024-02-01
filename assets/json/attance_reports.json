@@ -1,0 +1,66 @@
+[
+    {
+        "Name": "John Doe",
+        "ProfileImage": "avatar-02.jpg",
+        "ProfileLink": "profile",
+        "Role": "Design",
+        "Date": "20 Dec 2020",
+        "Shift": "Morning Shift ( 8.0hrs )",
+        "ArrivalTime": "9.30am",
+        "DepartureTime": "7.30pm",
+        "Work": "09",
+        "LateArrival": "00",
+        "MissingWork": "00",
+        "ExtraTime": "01"
+    },
+    {
+        "Name": "Richard Miles",
+        "ProfileImage": "avatar-09.jpg",
+        "ProfileLink": "profile",
+        "Role": "#0002",
+        "Date": "20 Dec 2020",
+        "Workday": "Week off",
+        "Work": "-",
+        "LateArrival": "-",
+        "MissingWork": "-",
+        "ExtraTime": "-"
+    },
+    {
+        "Name": "John Smith",
+        "ProfileImage": "avatar-10.jpg",
+        "ProfileLink": "profile",
+        "Role": "Android Developer",
+        "Date": "20 Dec 2020",
+        "Workday": "Week off",
+        "Work": "-",
+        "LateArrival": "-",
+        "MissingWork": "-",
+        "ExtraTime": "-"
+    },
+    {
+        "Name": "Mike Litorus",
+        "ProfileImage": "avatar-05.jpg",
+        "ProfileLink": "profile",
+        "Role": "IOS Developer",
+        "Date": "20 Dec 2020",
+        "Shift": "Morning Shift ( 8.0hrs )",
+        "ArrivalTime": "9.30am",
+        "DepartureTime": "6.30pm",
+        "Work": "08",
+        "LateArrival": "00",
+        "MissingWork": "00",
+        "ExtraTime": "00"
+    },
+    {
+        "Name": "Wilmer Deluna",
+        "ProfileImage": "avatar-11.jpg",
+        "ProfileLink": "profile",
+        "Role": "Team Leader",
+        "Date": "20 Dec 2020",
+        "Workday": "Week off",
+        "Work": "-",
+        "LateArrival": "-",
+        "MissingWork": "-",
+        "ExtraTime": "-"
+    }
+]

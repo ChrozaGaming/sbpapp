@@ -1,0 +1,20 @@
+[
+      {
+        "number": "1",
+        "invoiceNumber": "#INV-0001",
+        "client": "Global Technologies",
+        "createdDate": "11 Mar 2019",
+        "dueDate": "17 Mar 2019",
+        "amount": "$2099",
+        "status": "Paid"
+      },
+      {
+        "number": "2",
+        "invoiceNumber": "#INV-0002",
+        "client": "Delta Infotech",
+        "createdDate": "11 Mar 2019",
+        "dueDate": "17 Mar 2019",
+        "amount": "$2099",
+        "status": "Sent"
+      }
+    ]

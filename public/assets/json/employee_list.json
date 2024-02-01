@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "Bernardo Galaviz",
+    "Image": "avatar-13.jpg",
+    "Designation": "Web Developer",
+    "EmployeeID": "FT-0007",
+    "Email": "bernardogalaviz@example.com",
+    "Mobile": "9876543210",
+    "JoinDate": "1 Jan 2013",
+    "Role": "Web Developer"
+  },
+  {
+    "Name": "Jeffrey Warden",
+    "Image": "avatar-12.jpg",
+    "Designation": "Web Developer",
+    "EmployeeID": "FT-0006",
+    "Email": "jeffreywarden@example.com",
+    "Mobile": "9876543210",
+    "JoinDate": "16 Jun 2013",
+    "Role": "Web Developer"
+  },
+  {
+    "Name": "John Doe",
+    "Image": "avatar-02.jpg",
+    "Designation": "Web Designer",
+    "EmployeeID": "FT-0001",
+    "Email": "johndoe@example.com",
+    "Mobile": "9876543210",
+    "JoinDate": "1 Jan 2013",
+    "Role": "Web Developer"
+  },
+  {
+    "Name": "John Smith",
+    "Image": "avatar-10.jpg",
+    "Designation": "Android Developer",
+    "EmployeeID": "FT-0003",
+    "Email": "johnsmith@example.com",
+    "Mobile": "9876543210",
+    "JoinDate": "1 Apr 2014",
+    "Role": "Web Developer"
+  },
+  {
+    "Name": "Mike Litorus",
+    "Image": "avatar-05.jpg",
+    "Designation": "IOS Developer",
+    "EmployeeID": "FT-0004",
+    "Email": "mikelitorus@example.com",
+    "Mobile": "9876543210",
+    "JoinDate": "1 Apr 2014",
+    "Role": "Web Developer"
+  },
+  {
+    "Name": "Richard Miles",
+    "Image": "avatar-09.jpg",
+    "Designation": "Web Developer",
+    "EmployeeID": "FT-0002",
+    "Email": "richardmiles@example.com",
+    "Mobile": "9876543210",
+    "JoinDate": "18 Mar 2014",
+    "Role": "Web Developer"
+  },
+  {
+    "Name": "Wilmer Deluna",
+    "Image": "avatar-11.jpg",
+    "Designation": "Team Leader",
+    "EmployeeID": "FT-0005",
+    "Email": "wilmerdeluna@example.com",
+    "Mobile": "9876543210",
+    "JoinDate": "22 May 2014",
+    "Role": "Web Developer"
+  }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "#": "1",
+        "Questions": "IS management has decided to rewrite a legacy <br>customer relations system using fourth generation <br>languages (4GLs). Which of the following risks is<br> MOST often associated with system development using 4GLs?",
+        "OptionA": "design facilities",
+        "OptionB": "language subsets",
+        "OptionC": "Lack of portability",
+        "OptionD": "Inability to perform data",
+        "CorrectAnswer": "A"
+    },
+    {
+        "#": "2",
+        "Questions": "Which of the following would be the BEST<br> method for ensuring that critical fields in a<br> master record have been updated properly?",
+        "OptionA": "design facilities",
+        "OptionB": "language subsets",
+        "OptionC": "Lack of portability",
+        "OptionD": "Inability to perform data",
+        "CorrectAnswer": "A"
+    }
+]

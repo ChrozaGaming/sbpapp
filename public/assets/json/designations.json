@@ -1,0 +1,78 @@
+[
+    {
+      "id": 1,
+      "designation": "Web Designer",
+      "department": "Web Development"
+    },
+    {
+      "id": 2,
+      "designation": "Web Developer",
+      "department": "Web Development"
+    },
+    {
+      "id": 3,
+      "designation": "Android Developer",
+      "department": "Application Development"
+    },
+    {
+      "id": 4,
+      "designation": "IOS Developer",
+      "department": "Application Development"
+    },
+    {
+      "id": 5,
+      "designation": "UI Designer",
+      "department": "Application Development"
+    },
+    {
+      "id": 6,
+      "designation": "UX Designer",
+      "department": "Application Development"
+    },
+    {
+      "id": 7,
+      "designation": "IT Technician",
+      "department": "Application Development"
+    },
+    {
+      "id": 8,
+      "designation": "Product Manager",
+      "department": "Application Development"
+    },
+    {
+      "id": 9,
+      "designation": "SEO Analyst",
+      "department": "Application Development"
+    },
+    {
+      "id": 10,
+      "designation": "Front End Designer",
+      "department": "Application Development"
+    },
+    {
+      "id": 11,
+      "designation": "Front End Developer",
+      "department": "Application Development"
+    },
+    {
+      "id": 12,
+      "designation": "Systems Engineer",
+      "department": "Application Development"
+    },
+    {
+      "id": 13,
+      "designation": "Systems Administrator",
+      "department": "Application Development"
+    },
+    {
+      "id": 14,
+      "designation": "Technical Lead",
+      "department": "Application Development"
+    },
+    {
+      "id": 15,
+      "designation": "Quality Assurance",
+      "department": "Application Development"
+    }
+  ]
+  

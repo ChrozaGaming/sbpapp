@@ -1,0 +1,74 @@
+[
+    {
+        "Name": "Carlson Tech",
+        "ClientId": "CLT-0008",
+        "ContactPerson": "Betty Carlson",
+        "Email": "bettycarlson@example.com",
+        "Mobile": "9876543210",
+        "Status": "Inactive",
+       "image":"avatar-22.jpg"
+    },
+    {
+        "Name": "Cream Inc",
+        "ClientId": "CLT-0003",
+        "ContactPerson": "Ruby Bartlett",
+        "Email": "rubybartlett@example.com",
+        "Mobile": "9876543210",
+        "Status": "Active",
+       "image":"avatar-07.jpg"
+    },
+    {
+        "Name": "Delta Infotech",
+        "ClientId": "CLT-0002",
+        "ContactPerson": "Tressa Wexler",
+        "Email": "tressawexler@example.com",
+        "Mobile": "9876543210",
+        "Status": "Inactive",
+       "image":"avatar-29.jpg"
+    },
+    {
+        "Name": "Global Technologies",
+        "ClientId": "CLT-0001",
+        "ContactPerson": "Barry Cuda",
+        "Email": "barrycuda@example.com",
+        "Mobile": "9876543210",
+        "Status": "Active",
+       "image":"avatar-19.jpg"
+    },
+    {
+        "Name": "International Software Inc",
+        "ClientId": "CLT-0006",
+        "ContactPerson": "Walter Weaver",
+        "Email": "walterweaver@example.com",
+        "Mobile": "9876543210",
+        "Status": "Active",
+       "image":"avatar-18.jpg"
+    },
+    {
+        "Name": "Mercury Software Inc",
+        "ClientId": "CLT-0007",
+        "ContactPerson": "Amanda Warren",
+        "Email": "amandawarren@example.com",
+        "Mobile": "9876543210",
+        "Status": "Active",
+       "image":"avatar-28.jpg"
+    },
+    {
+        "Name": "Mustang Technologies",
+        "ClientId": "CLT-0005",
+        "ContactPerson": "Daniel Deacon",
+        "Email": "danieldeacon@example.com",
+        "Mobile": "9876543210",
+        "Status": "Active",
+       "image":"avatar-14.jpg"
+    },
+    {
+        "Name": "Wellware Company",
+        "ClientId": "CLT-0004",
+        "ContactPerson": "Misty Tison",
+        "Email": "mistytison@example.com",
+        "Mobile": "9876543210",
+        "Status": "Active",
+       "image":"avatar-06.jpg"
+    } 
+]

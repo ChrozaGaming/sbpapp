@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "designation": "Web Designer",
+      "department": "Designing",
+      "addedBy": {
+        "name": "John Doe",
+        "avatar": "avatar-02.jpg",
+        "profileUrl": "profile"
+      },
+      "createdAt": "7 May 2019",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "designation": "IOS Developer",
+      "department": "IOS",
+      "addedBy": {
+        "name": "Mike Litorus",
+        "avatar": "avatar-05.jpg",
+        "profileUrl": "profile"
+      },
+      "createdAt": "7 May 2019",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "designation": "Web Designer",
+      "department": "Designing",
+      "addedBy": {
+        "name": "John Smith",
+        "avatar": "avatar-10.jpg",
+        "profileUrl": "profile"
+      },
+      "createdAt": "7 May 2019",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "designation": "Web Designer",
+      "department": "Designing",
+      "addedBy": {
+        "name": "Jeffrey Warden",
+        "avatar": "avatar-12.jpg",
+        "profileUrl": "profile"
+      },
+      "createdAt": "7 May 2019",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "designation": "Web Designer",
+      "department": "Designing",
+      "addedBy": {
+        "name": "Wilmer Deluna",
+        "avatar": "avatar-11.jpg",
+        "profileUrl": "profile"
+      },
+      "createdAt": "7 May 2019",
+      "status": "Active"
+    }
+  ]
+  

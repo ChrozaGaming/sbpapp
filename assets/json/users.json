@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Barry Cuda",
+    "email": "barrycuda@example.com",
+    "company": "Global Technologies",
+    "created_date": "1 Jan 2013",
+    "role": "Client",
+    "image": "avatar-19.jpg",
+    "position": "Global Technologies"
+  },
+  {
+    "name": "Daniel Porter",
+    "email": "danielporter@example.com",
+    "company": "Dreamguy's Technologies",
+    "created_date": "1 Jan 2013",
+    "role": "Admin",
+    "image": "avatar-21.jpg",
+    "position": "Admin"
+  },
+  {
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "company": "Dreamguy's Technologies",
+    "created_date": "1 Jan 2013",
+    "role": "Employee",
+    "image": "avatar-02.jpg",
+    "position": "Web Designer"
+  },
+  {
+    "name": "John Smith",
+    "email": "johnsmith@example.com",
+    "company": "Dreamguy's Technologies",
+    "created_date": "1 Jan 2013",
+    "role": "Employee",
+    "image": "avatar-10.jpg",
+    "position": "Android Developer"
+  },
+  {
+    "name": "Mike Litorus",
+    "email": "mikelitorus@example.com",
+    "company": "Dreamguy's Technologies",
+    "created_date": "1 Jan 2013",
+    "role": "Employee",
+    "image": "avatar-05.jpg",
+    "position": "IOS Developer"
+  },
+  {
+    "name": "Richard Miles",
+    "email": "richardmiles@example.com",
+    "company": "Dreamguy's Technologies",
+    "created_date": "1 Jan 2013",
+    "role": "Employee",
+    "image": "avatar-09.jpg",
+    "position": "Admin"
+  },
+  {
+    "name": "Wilmer Deluna",
+    "email": "wilmerdeluna@example.com",
+    "company": "Dreamguy's Technologies",
+    "created_date": "1 Jan 2013",
+    "role": "Employee",
+    "image": "avatar-11.jpg",
+    "position": "Team Leader"
+  }
+]

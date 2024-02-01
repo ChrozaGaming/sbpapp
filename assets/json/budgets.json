@@ -1,0 +1,24 @@
+[
+    {
+        "BudgetNo": "1",
+        "BudgetTitle": "Tender",
+        "BudgetType": "Project",
+        "StartDate": "01 Jan 2021",
+        "EndDate": "31 Dec 2021",
+        "TotalRevenue": "2500000",
+        "TotalExpenses": "1500000",
+        "TaxAmount": "10",
+        "BudgetAmount": "999990"
+    },
+    {
+        "BudgetNo": "2",
+        "BudgetTitle": "Project",
+        "BudgetType": "Project",
+        "StartDate": "01 Feb 2021",
+        "EndDate": "30 Apr 2021",
+        "TotalRevenue": "100000",
+        "TotalExpenses": "50000",
+        "TaxAmount": "1000",
+        "BudgetAmount": "49000"
+    }
+]

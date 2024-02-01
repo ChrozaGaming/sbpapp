@@ -1,0 +1,83 @@
+[
+    {
+      "employee": {
+        "name": "John Doe",
+        "avatar": "avatar-02.jpg",
+        "profileUrl": "profile",
+        "id": "#0001"
+      },
+      "date": "20 Dec 2020",
+      "department": "Design",
+      "leaveType": "Sick Leave",
+      "numberOfDays": "05",
+      "remainingLeave": "08",
+      "totalLeaves": "20",
+      "totalLeaveTaken": "12",
+      "leaveCarryForward": "08"
+    },
+    {
+      "employee": {
+        "name": "John Smith",
+        "avatar": "avatar-10.jpg",
+        "profileUrl": "profile",
+        "id": "#003"
+      },
+      "date": "22 Dec 2020",
+      "department": "Android Developer",
+      "leaveType": "Emergency Leave",
+      "numberOfDays": "01",
+      "remainingLeave": "09",
+      "totalLeaves": "20",
+      "totalLeaveTaken": "17",
+      "leaveCarryForward": "03"
+    },
+    {
+      "employee": {
+        "name": "Mike Litorus",
+        "avatar": "avatar-05.jpg",
+        "profileUrl": "profile",
+        "id": "#004"
+      },
+      "date": "23 Dec 2020",
+      "department": "IOS Developer",
+      "leaveType": "Sick Leave",
+      "numberOfDays": "15",
+      "remainingLeave": "05",
+      "totalLeaves": "20",
+      "totalLeaveTaken": "15",
+      "leaveCarryForward": "05"
+    },
+    {
+        "employee": {
+          "name": "Richard Miles",
+          "avatar": "avatar-09.jpg",
+          "profileUrl": "profile",
+          "id": "#0002"
+        },
+        "date": "21 Dec 2020",
+        "department": "Web Developer",
+        "leaveType": "Parenting Leave",
+        "numberOfDays": "03",
+        "remainingLeave": "08",
+        "totalLeaves": "20",
+        "totalLeaveTaken": "12",
+        "leaveCarryForward": "05"
+      },
+    {
+      "employee": {
+        "name": "Wilmer Deluna",
+        "avatar": "avatar-11.jpg",
+        "profileUrl": "profile",
+        "id": "#005"
+      },
+      "date": "24 Dec 2020",
+      "department": "Team Leader",
+      "leaveType": "Sick Leave",
+      "numberOfDays": "10",
+      "remainingLeave": "07",
+      "totalLeaves": "20",
+      "totalLeaveTaken": "18",
+      "leaveCarryForward": "2"
+    }
+  ]
+  

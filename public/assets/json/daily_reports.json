@@ -1,0 +1,57 @@
+[
+    {
+        "Employee": {
+            "Name": "John Doe",
+            "ProfileURL": "profile",
+            "Avatar": "avatar-02.jpg",
+            "EmployeeID": "#0001"
+        },
+        "Date": "20 Dec 2020",
+        "Department": "Design",
+        "Status": "Week off"
+    },
+    {
+        "Employee": {
+            "Name": "John Smith",
+            "ProfileURL": "profile",
+            "Avatar": "avatar-10.jpg",
+            "EmployeeID": "#003"
+        },
+        "Date": "20 Dec 2020",
+        "Department": "Android Developer",
+        "Status": "Week off"
+    },
+    {
+        "Employee": {
+            "Name": "Mike Litorus",
+            "ProfileURL": "profile",
+            "Avatar": "avatar-05.jpg",
+            "EmployeeID": "#004"
+        },
+        "Date": "20 Dec 2020",
+        "Department": "IOS Developer",
+        "Status": "Week off"
+    },
+    {
+        "Employee": {
+            "Name": "Richard Miles",
+            "ProfileURL": "profile",
+            "Avatar": "avatar-09.jpg",
+            "EmployeeID": "#0002"
+        },
+        "Date": "20 Dec 2020",
+        "Department": "Web Developer",
+        "Status": "Absent"
+    },
+    {
+        "Employee": {
+            "Name": "Wilmer Deluna",
+            "ProfileURL": "profile",
+            "Avatar": "avatar-11.jpg",
+            "EmployeeID": "#005"
+        },
+        "Date": "20 Dec 2020",
+        "Department": "Team Leader",
+        "Status": "Week off"
+    }
+]

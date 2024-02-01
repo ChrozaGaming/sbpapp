@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "name": "Barry Cuda",
+      "company": "Global Technologies",
+      "email": "barrycuda@example.com",
+      "role": "Client",
+      "position":"Global Technologies",
+      "designation": "CEO",
+      "status": "Active",
+      "image":"avatar-19.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Daniel Porter",
+      "company": "Focus Technologies",
+      "email": "danielporter@example.com",
+      "role": "Admin",
+      "position":"Admin",
+      "designation": "Admin Manager",
+      "status": "Active",
+      "image":"avatar-21.jpg"
+    }
+  ]
+  

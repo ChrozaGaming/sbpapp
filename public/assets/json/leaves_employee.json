@@ -1,0 +1,115 @@
+[
+    {
+      "leaveType": "Casual Leave",
+      "from": "8 Mar 2019",
+      "to": "9 Mar 2019",
+      "noOfDays": "2 days",
+      "reason": "Going to Hospital",
+      "status": {
+        "text": "New"
+      },
+      "approvedBy": {
+        "avatar": "avatar-09.jpg",
+        "name": "Richard Miles"
+      }
+    },
+    {
+      "leaveType": "Medical Leave",
+      "from": "27 Feb 2019",
+      "to": "27 Feb 2019",
+      "noOfDays": "1 day",
+      "reason": "Going to Hospital",
+      "status": {
+        "text": "Approved"
+      },
+      "approvedBy": {
+        "avatar": "avatar-09.jpg",
+        "name": "Richard Miles"
+      }
+    },
+    {
+      "leaveType": "LOP",
+      "from": "24 Feb 2019",
+      "to": "25 Feb 2019",
+      "noOfDays": "2 days",
+      "reason": "Personnal",
+      "status": {
+        "text": "Approved"
+      },
+      "approvedBy": {
+        "avatar": "avatar-09.jpg",
+        "name": "Richard Miles"
+      }
+    },
+    {
+      "leaveType": "Paternity Leave",
+      "from": "13 Feb 2019",
+      "to": "17 Feb 2019",
+      "noOfDays": "5 days",
+      "reason": "Going to Hospital",
+      "status": {
+        "text": "Declined"
+      },
+      "approvedBy": {
+        "avatar": "avatar-09.jpg",
+        "name": "Richard Miles"
+      }
+    },
+    {
+      "leaveType": "Casual Leave",
+      "from": "30 Jan 2019",
+      "to": "30 Jan 2019",
+      "noOfDays": "Second Half",
+      "reason": "Going to Hospital",
+      "status": {
+        "text": "New"
+      },
+      "approvedBy": {
+        "avatar": "avatar-09.jpg",
+        "name": "Richard Miles"
+      }
+    },
+    {
+      "leaveType": "Hospitalisation",
+      "from": "15 Jan 2019",
+      "to": "25 Jan 2019",
+      "noOfDays": "10 days",
+      "reason": "Going to Hospital",
+      "status": {
+        "text": "Approved"
+      },
+      "approvedBy": {
+        "avatar": "avatar-09.jpg",
+        "name": "Richard Miles"
+      }
+    },
+    {
+      "leaveType": "Casual Leave",
+      "from": "13 Jan 2019",
+      "to": "14 Jan 2019",
+      "noOfDays": "2 days",
+      "reason": "Going to Hospital",
+      "status": {
+        "text": "Approved"
+      },
+      "approvedBy": {
+        "avatar": "avatar-09.jpg",
+        "name": "Richard Miles"
+      }
+    },
+    {
+      "leaveType": "Casual Leave",
+      "from": "10 Jan 2019",
+      "to": "10 Jan 2019",
+      "noOfDays": "First Half",
+      "reason": "Going to Hospital",
+      "status": {
+        "text": "Declined"
+      },
+      "approvedBy": {
+        "avatar": "avatar-09.jpg",
+        "name": "Richard Miles"
+      }
+    }
+  ]
+  

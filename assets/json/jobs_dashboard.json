@@ -1,0 +1,69 @@
+ [
+      {
+        "number": "1",
+        "name": "John Doe",
+        "jobTitle": "Web Developer",
+        "departments": "Development",
+        "startDate": "3 Mar 2019",
+        "expireDate": "31 May 2019",
+        "jobTypes": "Full Time",
+        "status": "Open",
+        "resume": "Download",
+        "image" : "avatar-02.jpg",
+        "designation":"Web Designer"
+      },
+      {
+        "number": "2",
+        "name": "Richard Miles",
+        "jobTitle": "Web Designer",
+        "departments": "Designing",
+        "startDate": "3 Mar 2019",
+        "expireDate": "31 May 2019",
+        "jobTypes": "Part Time",
+        "status": "Closed",
+        "resume": "Download",
+        "image" : "avatar-09.jpg",
+        "designation":"Web Developer"
+      },
+      {
+        "number": "3",
+        "name": "John Smith",
+        "jobTitle": "Android Developer",
+        "departments": "Android",
+        "startDate": "3 Mar 2019",
+        "expireDate": "31 May 2019",
+        "jobTypes": "Internship",
+        "status": "Cancelled",
+        "resume": "Download",
+        "image" : "avatar-10.jpg",
+        "designation":"Android Developer"
+      },
+      {
+        "number": "1",
+        "name": "John Doe",
+        "jobTitle": "Web Designer",
+        "departments": "Department",
+        "image" : "avatar-02.jpg",
+        "designation":"Web Designer",
+        "status":"Offered"
+      },
+      {
+        "number": "2",
+        "name": "Richard Miles",
+        "jobTitle": "Web Developer",
+        "departments": "Department",
+        "image" : "avatar-09.jpg",
+        "designation":"Web Developer",
+        "status":"Offered"
+      },
+      {
+        "number": "3",
+        "name": "John Smith",
+        "jobTitle": "Android Developer",
+        "departments": "Department",
+        "image" : "avatar-10.jpg",
+        "designation":"Android Developer",
+        "status":"Offered"
+      }
+    ]
+  

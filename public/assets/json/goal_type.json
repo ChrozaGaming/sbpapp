@@ -1,0 +1,16 @@
+[
+    {
+      "#": "1",
+      "Type": "Invoice Goal",
+      "Description": "Lorem ipsum dollar",
+      "Status": "Active"
+    },
+    {
+        "#": "2",
+        "Type": "Event Goal",
+        "Description": "Lorem ipsum dollar",
+        "Status": "Inactive"
+      }
+   
+  ]
+  

@@ -1,0 +1,23 @@
+[
+    {
+      "Item": "Dell Laptop",
+      "PurchaseFrom": "Amazon",
+      "PurchaseDate": "5 Jan 2019",
+      "PurchasedBy": "Loren Gatlin",
+      "Image": "avatar-04.jpg",
+      "Amount": "$ 1215",
+      "PaidBy": "Cash",
+      "Status": "Pending"
+    },
+    {
+      "Item": "Mac System",
+      "PurchaseFrom": "Amazon",
+      "PurchaseDate": "5 Jan 2019",
+      "PurchasedBy": "Tarah Shropshire",
+      "Image": "avatar-03.jpg",
+      "Amount": "$ 1215",
+      "PaidBy": "Cheque",
+      "Status": "Approved"
+    }
+  ]
+  

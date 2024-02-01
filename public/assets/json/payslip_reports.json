@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "employeeName": "Bernardo Galaviz",
+      "paidAmount": "$200",
+      "paymentMonth": "Apr",
+      "paymentYear": "2019",
+      "avatar":"avatar-13.jpg",
+      "role":"Web Developer"
+    },
+    {
+      "id": 2,
+      "employeeName": "Jeffrey Warden",
+      "paidAmount": "$300",
+      "paymentMonth": "Dec",
+      "paymentYear": "2020",
+      "avatar":"avatar-12.jpg",
+      "role":"Web Developer"
+    },
+    {
+      "id": 3,
+      "employeeName": "John Doe",
+      "paidAmount": "$400",
+      "paymentMonth": "Jun",
+      "paymentYear": "2020",
+      "avatar":"avatar-02.jpg",
+      "role":"Web Designer"
+    },
+    {
+      "id": 4,
+      "employeeName": "John Smith",
+      "paidAmount": "$500",
+      "paymentMonth": "Feb",
+      "paymentYear": "2020",
+      "avatar":"avatar-10.jpg",
+      "role":"Android Developer"
+    },
+    {
+      "id": 5,
+      "employeeName": "Mike Litorus",
+      "paidAmount": "$600",
+      "paymentMonth": "Jan",
+      "paymentYear": "2020",
+      "avatar":"avatar-05.jpg",
+      "role":"IOS Developer"
+    }
+  ]
+  

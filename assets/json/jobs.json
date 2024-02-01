@@ -1,0 +1,32 @@
+ [
+      {
+        "number": "1",
+        "jobTitle": "Web Developer",
+        "department": "Development",
+        "startDate": "3 Mar 2019",
+        "expireDate": "31 May 2019",
+        "jobType": "Full Time",
+        "status": "Open",
+        "applicants": "3 Candidates"
+      },
+      {
+        "number": "2",
+        "jobTitle": "Web Designer",
+        "department": "Designing",
+        "startDate": "3 Mar 2019",
+        "expireDate": "31 May 2019",
+        "jobType": "Part Time",
+        "status": "Closed",
+        "applicants": "2 Candidates"
+      },
+      {
+        "number": "3",
+        "jobTitle": "Android Developer",
+        "department": "Android",
+        "startDate": "3 Mar 2019",
+        "expireDate": "31 May 2019",
+        "jobType": "Internship",
+        "status": "Cancelled",
+        "applicants": "1 Candidates"
+      }
+    ]

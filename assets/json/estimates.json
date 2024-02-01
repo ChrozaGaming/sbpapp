@@ -1,0 +1,35 @@
+[
+	{
+	  "EstimateNumber": "EST-0001",
+	  "Client": "Global Technologies",
+	  "EstimateDate": "11 Mar 2019",
+	  "ExpiryDate": "17 Mar 2019",
+	  "Amount": "$2099",
+	  "Status": "Accepted"
+	},
+	{
+	  "EstimateNumber": "EST-0002",
+	  "Client": "Delta Infotech",
+	  "EstimateDate": "11 Mar 2019",
+	  "ExpiryDate": "17 Mar 2019",
+	  "Amount": "$2099",
+	  "Status": "Declined"
+	},
+	{
+	  "EstimateNumber": "EST-0003",
+	  "Client": "Cream Inc",
+	  "EstimateDate": "11 Mar 2019",
+	  "ExpiryDate": "17 Mar 2019",
+	  "Amount": "$2099",
+	  "Status": "Sent"
+	},
+	{
+	  "EstimateNumber": "EST-0004",
+	  "Client": "International Software Inc",
+	  "EstimateDate": "11 Mar 2019",
+	  "ExpiryDate": "17 Mar 2019",
+	  "Amount": "$2099",
+	  "Status": "Expired"
+	}
+  ]
+  

@@ -1,0 +1,25 @@
+[
+      {
+        "invoice_id": "#INV-0001",
+        "client": "Global Technologies",
+        "due_date": "11 Mar 2019",
+        "total": "$380",
+        "status": "Partially Paid"
+      },
+      {
+        "invoice_id": "#INV-0002",
+        "client": "Delta Infotech",
+        "due_date": "8 Feb 2019",
+        "total": "$500",
+        "status": "Paid"
+      },
+      {
+        "invoice_id": "#INV-0003",
+        "client": "Cream Inc",
+        "due_date": "23 Jan 2019",
+        "total": "$60",
+        "status": "Unpaid"
+      }
+    ]
+
+  

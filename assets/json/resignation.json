@@ -1,0 +1,12 @@
+[
+    {
+      "number": "1",
+      "ResigningEmployee": "John Doe",
+      "Department": "Web Development",
+      "Reason": "Lorem ipsum dollar",
+      "NoticeDate": "28 Feb 2019",
+      "ResignationDate": "28 Feb 2019",
+      "image":"avatar-02.jpg"
+    }
+  ]
+  

@@ -1,0 +1,16 @@
+[
+    {
+        "#": "1",
+        "TaxName": "VAT",
+        "TaxPercentage": "14%",
+        "Status": "Inactive",
+        "Action": "Edit/Delete"
+    },
+    {
+        "#": "2",
+        "TaxName": "GST",
+        "TaxPercentage": "30%",
+        "Status": "Active",
+        "Action": "Edit/Delete"
+    }
+]
