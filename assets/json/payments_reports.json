@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "transactionID": "834521",
+      "date": "2 Dec 2020",
+      "clientName": "Dreams",
+      "paymentMethod": "Online",
+      "invoice": "INV0001",
+      "amount": "$4,329,970.7"
+    },
+    {
+      "id": 2,
+      "transactionID": "834521",
+      "date": "2 Dec 2020",
+      "clientName": "Dreams",
+      "paymentMethod": "Online",
+      "invoice": "INV0001",
+      "amount": "$4,329,970.7"
+    }
+  ]
+  

@@ -1,0 +1,12 @@
+[
+    {
+      "EmployeeName": "John Doe",
+      "ProvidentFundType": "Percentage of Basic Salary",
+      "EmployeeShare": "2%",
+      "OrganizationShare": "2%",
+      "Status": "Pending",
+      "image":"avatar-02.jpg",
+      "role":"Web Designer"
+    }
+  ]
+  

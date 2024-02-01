@@ -1,0 +1,17 @@
+[
+	{
+		"#": "1",
+		"CategoryName": "Hardware",
+		"Sub-CategoryName": "Hardware Expenses"
+	},
+	{
+		"#": "2",
+		"CategoryName": "Material",
+		"Sub-CategoryName": "Material Expenses"
+	},
+	{
+		"#": "3",
+		"CategoryName": "Vehicle",
+		"Sub-CategoryName": "Company Vehicle Information"
+	}
+]

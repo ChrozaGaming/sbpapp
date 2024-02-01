@@ -1,0 +1,39 @@
+[
+    {
+      "number": 1,
+      "image":"avatar-02.jpg",
+      "role":"Web Designer",
+      "name": "John Doe",
+      "jobTitle": "Web Designer",
+      "userAvailableTimings": [
+        { "date": "11-03-2020", "time": "11:00 AM-12:00 PM" },
+        { "date": "12-03-2020", "time": "10:00 AM-11:00 AM" },
+        { "date": "01-01-1970", "time": "10:00 AM-11:00 AM" }
+      ]
+    },
+    {
+      "number": 2,
+      "image":"avatar-09.jpg",
+      "role":"Web Developer",
+      "name": "Richard Miles",
+      "jobTitle": "Web Developer",
+      "userAvailableTimings": [
+        { "date": "11-03-2020", "time": "11:00 AM-12:00 PM" },
+        { "date": "12-03-2020", "time": "10:00 AM-11:00 AM" },
+        { "date": "01-01-1970", "time": "10:00 AM-11:00 AM" }
+      ]
+    },
+    {
+      "number": 3,
+      "image":"avatar-10.jpg",
+      "role":"Android Developer",
+      "name": "John Smith",
+      "jobTitle": "Android Developer",
+      "userAvailableTimings": [
+        { "date": "11-03-2020", "time": "11:00 AM-12:00 PM" },
+        { "date": "12-03-2020", "time": "10:00 AM-11:00 AM" },
+        { "date": "01-01-1970", "time": "10:00 AM-11:00 AM" }
+      ]
+    }
+  ]
+  

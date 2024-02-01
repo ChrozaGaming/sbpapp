@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "assetId": "AST - 001",
+        "category": "Laptop",
+        "department": "UI",
+        "allocatedTo": {
+            "profileImage": "avatar-02.jpg",
+            "name": "John Paul Raj",
+            "email": "john@dreamguystech.com"
+        },
+        "status": "Assigned",
+        "image": "laptop.png",
+        "edit_image": "edit.svg",
+        "delete_image": "delete.svg"
+    },
+    {
+        "id": 2,
+        "name": "Laptop",
+        "assetId": "AST - 002",
+        "category": "Computer",
+        "department": "PHP",
+        "allocatedTo": {
+            "profileImage": "avatar-05.jpg",
+            "name": "Vinod Selvaraj",
+            "email": "vinod.s@dreamguystech.com"
+        },
+        "status": "Assign",
+        "image": "laptop.png",
+        "edit_image": "edit.svg",
+        "delete_image": "delete.svg"
+    },
+    {
+        "id": 3,
+        "name": "Dell Keyboard",
+        "assetId": "AST - 003",
+        "category": "Keyboard",
+        "department": "SEO",
+        "allocatedTo": {
+            "profileImage": "avatar-03.jpg",
+            "name": "Harika",
+            "email": "harika.v@dreamguystech.com"
+        },
+        "status": "Assigned",
+        "image": "keyboard.png",
+        "edit_image": "edit.svg",
+        "delete_image": "delete.svg"
+    },
+    {
+        "id": 4,
+        "name": "Logitech Mouse",
+        "assetId": "AST - 0024",
+        "category": "Mouse",
+        "department": "Android",
+        "allocatedTo": {
+            "profileImage": "avatar-03.jpg",
+            "name": "Mythili",
+            "email": "mythili@dreamguystech.com"
+        },
+        "status": "Assigned",
+        "image": "mouse.png",
+        "edit_image": "edit.svg",
+        "delete_image": "delete.svg"
+    },
+    {
+        "id": 5,
+        "name": "Laptop",
+        "assetId": "AST - 005",
+        "category": "Laptop",
+        "department": "UI",
+        "allocatedTo": {
+            "profileImage": "avatar-02.jpg",
+            "name": "John Paul Raj",
+            "email": "john@dreamguystech.com"
+        },
+        "status": "Assigned",
+        "image": "laptop.png",
+        "edit_image": "edit.svg",
+        "delete_image": "delete.svg"
+    },
+    {
+        "id": 6,
+        "name": "Laptop",
+        "assetId": "AST - 006",
+        "category": "Computer",
+        "department": "PHP",
+        "allocatedTo": {
+            "profileImage": "avatar-05.jpg",
+            "name": "Vinod Selvaraj",
+            "email": "vinod.s@dreamguystech.com"
+        },
+        "status": "Assigned",
+        "image": "laptop.png",
+        "edit_image": "edit.svg",
+        "delete_image": "delete.svg"
+    }
+]

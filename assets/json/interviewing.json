@@ -1,0 +1,41 @@
+[
+    {
+        "#":"1",
+        "JobTitle":"Web Developer",
+        "Department":"Development",
+        "JobType":"Full Time",
+        "AptitudeTest":"Click Here"
+    },
+    {
+        "#":"2",
+        "JobTitle":"Web Developer",
+        "Department":"Development",
+        "JobType":"Part Time",
+        "AptitudeTest":"Click Here"
+    },
+    {
+        "#":"2",
+        "JobTitle":"Web Designing",
+        "Department":"Development",
+        "JobType":"Part Time",
+        "AptitudeTest":"Click Here"
+    },
+    {
+        "#":"1",
+        "JobTitle":"Web Developer",
+        "Department":"Development",
+        "JobType":"Full Time"
+    },
+    {
+        "#":"1",
+        "JobTitle":"Web Designing",
+        "Department":"Development",
+        "JobType":"Part Time"
+    },
+    {
+        "#":"1",
+        "JobTitle":"Web Developer",
+        "Department":"Development",
+        "JobType":"Part Time"
+    }
+]

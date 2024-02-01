@@ -1,0 +1,21 @@
+[
+    {
+      "number": 1,
+      "leaveType": "Casual Leave",
+      "days": "12 Days",
+      "status": "Active"
+    },
+    {
+      "number": 2,
+      "leaveType": "Medical Leave",
+      "days": "12 Days",
+      "status": "Inactive"
+    },
+    {
+      "number": 3,
+      "leaveType": "Loss of Pay",
+      "days": "-",
+      "status": "Active"
+    }
+  ]
+  

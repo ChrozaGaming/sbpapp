@@ -1,0 +1,50 @@
+[
+    {
+        "Plan": "Free Trial",
+        "PlanType": "Monthly",
+        "CreateDate": "9 Nov 2019",
+        "ModifiedDate": "8 Dec 2019",
+        "Amount": "Free",
+        "SubscribedUsers": "30 Users"
+    },
+    {
+        "Plan": "Professional",
+        "PlanType": "Monthly",
+        "CreateDate": "9 Nov 2019",
+        "ModifiedDate": "8 Dec 2019",
+        "Amount": "$21",
+        "SubscribedUsers": "97 Users"
+    },
+    {
+        "Plan": "Enterprise",
+        "PlanType": "Monthly",
+        "CreateDate": "9 Nov 2019",
+        "ModifiedDate": "8 Dec 2019",
+        "Amount": "$38",
+        "SubscribedUsers": "125 Users"
+    },
+    {
+        "Plan": "Free Trial",
+        "PlanType": "Yearly",
+        "CreateDate": "9 Nov 2019",
+        "ModifiedDate": "8 Dec 2019",
+        "Amount": "Free",
+        "SubscribedUsers": "62 Users"
+    },
+    {
+        "Plan": "Professional",
+        "PlanType": "Yearly",
+        "CreateDate": "9 Nov 2019",
+        "ModifiedDate": "8 Dec 2019",
+        "Amount": "$199",
+        "SubscribedUsers": "157 Users"
+    },
+    {
+        "Plan": "Enterprise",
+        "PlanType": "Yearly",
+        "CreateDate": "9 Nov 2019",
+        "ModifiedDate": "8 Dec 2019",
+        "Amount": "$399",
+        "SubscribedUsers": "241 Users"
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+      "#": "1",
+      "GoalType": "Event Goal",
+      "Subject": "Test Goal",
+      "TargetAchievement": "Lorem ipsum dollar",
+      "StartDate": "7 May 2019",
+      "EndDate": "10 May 2019",
+      "Description": "Lorem ipsum dollar",
+      "Status": "Active",
+      "Progress": {
+        "Label": "Completed 73%",
+        "Percentage": 73
+      }
+    },
+    {
+      "#": "2",
+      "GoalType": "Invoice Goal",
+      "Subject": "Test Goal",
+      "TargetAchievement": "Lorem ipsum dollar",
+      "StartDate": "7 May 2019",
+      "EndDate": "10 May 2019",
+      "Description": "Lorem ipsum dollar",
+      "Status": "Inactive",
+      "Progress": {
+        "Label": "Completed 100%",
+        "Percentage": 100
+      }
+    },
+    {
+      "#": "3",
+      "GoalType": "Employee Goal",
+      "Subject": "Test Goal",
+      "TargetAchievement": "Lorem ipsum dollar",
+      "StartDate": "7 May 2019",
+      "EndDate": "10 May 2019",
+      "Description": "Lorem ipsum dollar",
+      "Status": "Active",
+      "Progress": {
+        "Label": "Completed 73%",
+        "Percentage": 73
+      }
+    },
+    {
+      "#": "4",
+      "GoalType": "Invoice Goal",
+      "Subject": "Test Goal",
+      "TargetAchievement": "Lorem ipsum dollar",
+      "StartDate": "7 May 2019",
+      "EndDate": "10 May 2019",
+      "Description": "Lorem ipsum dollar",
+      "Status": "Active",
+      "Progress": {
+        "Label": "Completed 73%",
+        "Percentage": 73
+      }
+    },
+    {
+      "#": "5",
+      "GoalType": "Project Goal",
+      "Subject": "Test Goal",
+      "TargetAchievement": "Lorem ipsum dollar",
+      "StartDate": "7 May 2019",
+      "EndDate": "10 May 2019",
+      "Description": "Lorem ipsum dollar",
+      "Status": "Active",
+      "Progress": {
+        "Label": "Completed 73%",
+        "Percentage": 73
+      }
+    }
+  ]
+  

@@ -1,0 +1,22 @@
+ [
+      {
+        "number": "1",
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "phone": "9876543210",
+        "applyDate": "9 Feb 2019",
+        "status": "New",
+        "resume": "Download"
+      },
+      {
+        "number": "2",
+        "name": "Maria Sam",
+        "email": "mariasam@example.com",
+        "phone": "9876543210",
+        "applyDate": "21 Feb 2019",
+        "status": "Hired",
+        "resume": "Download"
+      }
+    ]
+
+  

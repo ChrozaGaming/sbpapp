@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "categoryName": "Hardware",
+        "subCategoryName": "Hardware Expenses"
+    },
+    {
+        "id": 2,
+        "categoryName": "Material",
+        "subCategoryName": "Material Expenses"
+    },
+    {
+        "id": 3,
+        "categoryName": "Vehicle",
+        "subCategoryName": "Company Vehicle Information"
+    }
+]

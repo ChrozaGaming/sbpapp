@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Bernardo Galaviz",
+        "role": "Web Developer",
+        "image": "avatar-13.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Video Calling App",
+        "AssignedHours": "20",
+        "Hours": "12",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    },
+    {
+        "name": "Catherine Manseau",
+        "role": "Android Developer",
+        "image": "avatar-08.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Video Calling App",
+        "AssignedHours": "20",
+        "Hours": "12",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    },
+    {
+        "name": "Jeffery Lalor",
+        "role": "Team Leader",
+        "image": "avatar-16.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Ware house development",
+        "AssignedHours": "20",
+        "Hours": "9",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    },
+    {
+        "name": "Jeffrey Warden",
+        "role": "Web Developer",
+        "image": "avatar-12.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Project Management",
+        "AssignedHours": "20",
+        "Hours": "12",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    },
+    {
+        "name": "John Doe ",
+        "role": "Web Designer",
+        "image": "avatar-02.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Office Management",
+        "AssignedHours": "20",
+        "Hours": "7",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    },
+    {
+        "name": "John Smith",
+        "role": "Android Developer",
+        "image": "avatar-10.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Video Calling App",
+        "AssignedHours": "20",
+        "Hours": "12",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    },
+    {
+        "name": "Lesley Grauer",
+        "role": "Team Leader",
+        "image": "avatar-01.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Hospital Administration",
+        "AssignedHours": "20",
+        "Hours": "12",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    },
+    {
+        "name": "Loren Gatlin",
+        "role": "Android Developer",
+        "image": "avatar-04.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Office Management",
+        "AssignedHours": "20",
+        "Hours": "12",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    },
+    {
+        "name": "Mike Litorus",
+        "role": "IOS Developer",
+        "image": "avatar-05.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Hospital Administration",
+        "AssignedHours": "20",
+        "Hours": "12",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    },
+    {
+        "name": "Richard Miles",
+        "role": "Web Developer",
+        "image": "avatar-09.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Project Management",
+        "AssignedHours": "20",
+        "Hours": "12",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    },
+    {
+        "name": "Tarah Shropshire",
+        "role": "Android Developer",
+        "image": "avatar-03.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Project Management",
+        "AssignedHours": "20",
+        "Hours": "12",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    },
+    {
+        "name": "Wilmer Deluna",
+        "role": "Team Leader",
+        "image": "avatar-11.jpg",
+        "profile_link": "profile",
+        "Date": "8 Mar 2019",
+        "Projects": "Office Management",
+        "AssignedHours": "20",
+        "Hours": "7",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit neque."
+    }
+]

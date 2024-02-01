@@ -1,0 +1,39 @@
+[
+    {
+      "ModulePermission": "Employee",
+      "Read": true,
+      "Write": true,
+      "Create": true,
+      "Delete": true,
+      "Import": true,
+      "Export": true
+    },
+    {
+      "ModulePermission": "Holidays",
+      "Read": true,
+      "Write": true,
+      "Create": true,
+      "Delete": true,
+      "Import": true,
+      "Export": true
+    },
+    {
+      "ModulePermission": "Leaves",
+      "Read": true,
+      "Write": true,
+      "Create": true,
+      "Delete": true,
+      "Import": true,
+      "Export": true
+    },
+    {
+      "ModulePermission": "Events",
+      "Read": true,
+      "Write": true,
+      "Create": true,
+      "Delete": true,
+      "Import": true,
+      "Export": true
+    }
+  ]
+  

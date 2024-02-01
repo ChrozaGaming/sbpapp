@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "jobTitle": "Web Developer",
+      "department": "Development",
+      "startDate": "3 Mar 2023",
+      "expireDate": "31 May 2023",
+      "jobType": "Full Time",
+      "status": "Open"
+    },
+    {
+      "id": 2,
+      "jobTitle": "Web Designer",
+      "department": "Designing",
+      "startDate": "3 Mar 2023",
+      "expireDate": "31 May 2023",
+      "jobType": "Part Time",
+      "status": "Closed"
+    },
+    {
+      "id": 3,
+      "jobTitle": "Android Developer",
+      "department": "Android",
+      "startDate": "3 Mar 2023",
+      "expireDate": "31 May 2023",
+      "jobType": "Internship",
+      "status": "Cancelled"
+    }
+  ]
+  

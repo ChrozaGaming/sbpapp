@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "categoryName": "Laptop",
+      "createdOn": "12/12/2022 at 11.23am",
+      "image":"laptop.png",
+      "edit_image":"edit.svg",
+      "delete_image":"delete.svg"
+    },
+    {
+      "id": 2,
+      "categoryName": "Laptop",
+      "createdOn": "12/12/2022 at 11.23am",
+      "image":"laptop.png",
+      "edit_image":"edit.svg",
+      "delete_image":"delete.svg"
+    },
+    {
+      "id": 3,
+      "categoryName": "Dell Keyboard",
+      "createdOn": "12/12/2022 at 11.23am",
+      "image":"keyboard.png",
+      "edit_image":"edit.svg",
+      "delete_image":"delete.svg"
+    },
+    {
+      "id": 4,
+      "categoryName": "Logitech Mouse",
+      "createdOn": "12/12/2022 at 11.23am",
+      "image":"mouse.png",
+      "edit_image":"edit.svg",
+      "delete_image":"delete.svg"
+    },
+    {
+      "id": 5,
+      "categoryName": "Laptop",
+      "createdOn": "12/12/2022 at 11.23am",
+      "image":"laptop.png",
+      "edit_image":"edit.svg",
+      "delete_image":"delete.svg"
+    },
+    {
+      "id": 6,
+      "categoryName": "Laptop",
+      "createdOn": "12/12/2022 at 11.23am",
+      "image":"laptop.png",
+      "edit_image":"edit.svg",
+      "delete_image":"delete.svg"
+    }
+  ]
+  

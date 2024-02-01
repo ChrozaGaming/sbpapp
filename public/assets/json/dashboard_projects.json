@@ -1,0 +1,32 @@
+[
+    {
+        "project_name": "Office Management",
+        "open_tasks": 1,
+        "completed_tasks": 9,
+        "progress": 65
+    },
+    {
+        "project_name": "Project Management",
+        "open_tasks": 2,
+        "completed_tasks": 5,
+        "progress": 15
+    },
+    {
+        "project_name": "Video Calling App",
+        "open_tasks": 3,
+        "completed_tasks": 3,
+        "progress": 49
+    },
+    {
+        "project_name": "Hospital Administration",
+        "open_tasks": 12,
+        "completed_tasks": 4,
+        "progress": 88
+    },
+    {
+        "project_name": "Digital Marketplace",
+        "open_tasks": 7,
+        "completed_tasks": 14,
+        "progress": 100
+    }
+]

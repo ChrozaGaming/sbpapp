@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "employee": {
+        "name": "John Doe",
+        "avatar": "avatar-02.jpg",
+        "profileUrl": "profile"
+      },
+      "designation": "Web Designer",
+      "department": "Designing",
+      "appraisalDate": "7 May 2019",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "employee": {
+        "name": "Mike Litorus",
+        "avatar": "avatar-05.jpg",
+        "profileUrl": "profile"
+      },
+      "designation": "IOS Developer",
+      "department": "IOS",
+      "appraisalDate": "7 May 2019",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "employee": {
+        "name": "Bernardo Galaviz",
+        "avatar": "avatar-13.jpg",
+        "profileUrl": "profile"
+      },
+      "designation": "Web Developer",
+      "department": "Designing",
+      "appraisalDate": "7 May 2019",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "employee": {
+        "name": "Jeffrey Warden",
+        "avatar": "avatar-12.jpg",
+        "profileUrl": "profile"
+      },
+      "designation": "Web Developer",
+      "department": "Designing",
+      "appraisalDate": "7 May 2019",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "employee": {
+        "name": "Wilmer Deluna",
+        "avatar": "avatar-11.jpg",
+        "profileUrl": "profile"
+      },
+      "designation": "Team Leader",
+      "department": "IOS",
+      "appraisalDate": "7 May 2019",
+      "status": "Active"
+    }
+  ]
+  

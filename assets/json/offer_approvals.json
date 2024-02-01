@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "avatar": "avatar-02.jpg",
+        "jobTitle": "Web Developer",
+        "jobType": "Temporary",
+        "pay": "$25000",
+        "annualIP": "15%",
+        "longTermIP": "No",
+        "status": "Requested",
+        "role": "Web Designer"
+    },
+    {
+        "id": 2,
+        "name": "Richard Miles",
+        "avatar": "avatar-09.jpg",
+        "jobTitle": "Web Designer",
+        "jobType": "Contract",
+        "pay": "$25000",
+        "annualIP": "15%",
+        "longTermIP": "No",
+        "status": "Rejected",
+        "role": "Web Developer"
+    },
+    {
+        "id": 3,
+        "name": "John Smith",
+        "avatar": "avatar-10.jpg",
+        "jobTitle": "Android Developer",
+        "jobType": "Salary",
+        "pay": "$25000",
+        "annualIP": "15%",
+        "longTermIP": "No",
+        "status": "Approved",
+        "role": "Android Developer"
+    }
+]

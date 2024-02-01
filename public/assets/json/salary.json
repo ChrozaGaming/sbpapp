@@ -1,0 +1,112 @@
+[
+    {
+        "Employee": "Bernardo Galaviz",
+        "EmployeeID": "FT-0007",
+        "image": "avatar-13.jpg",
+        "Email": "bernardogalaviz@example.com",
+        "JoinDate": "1 Jan 2014",
+        "Role": "Web Developer",
+        "Salary": "$38400",
+        "Payslip": "Generate Slip"
+    },
+    {
+        "Employee": "Jeffery Lalor",
+        "EmployeeID": "FT-0009",
+        "image": "avatar-16.jpg",
+        "Email": "jefferylalor@example.com",
+        "JoinDate": "1 Jan 2013",
+        "Role": "Team Leader",
+        "Salary": "$73550",
+        "Payslip": "Generate Slip"
+    },
+    {
+        "Employee": "Jeffrey Warden",
+        "EmployeeID": "FT-0006",
+        "image": "avatar-12.jpg",
+        "Email": "jeffreywarden@example.com",
+        "JoinDate": "1 Jan 2013",
+        "Role": "Web Developer",
+        "Salary": "$45000",
+        "Payslip": "Generate Slip"
+    },
+    {
+        "Employee": "John Doe",
+        "EmployeeID": "FT-0001",
+        "image": "avatar-02.jpg",
+        "Email": "johndoe@example.com",
+        "JoinDate": "1 Jan 2013",
+        "Role": "Web Designer",
+        "Salary": "$59698",
+        "Payslip": "Generate Slip"
+    },
+    {
+        "Employee": "John Smith",
+        "EmployeeID": "FT-0003",
+        "image": "avatar-10.jpg",
+        "Email": "johnsmith@example.com",
+        "JoinDate": "1 Jan 2013",
+        "Role": "Android Developer",
+        "Salary": "$48200",
+        "Payslip": "Generate Slip"
+    },
+    {
+        "Employee": "Lesley Grauer",
+        "EmployeeID": "FT-0008",
+        "image": "avatar-01.jpg",
+        "Email": "lesleygrauer@example.com",
+        "JoinDate": "1 Jun 2015",
+        "Role": "Team Leader",
+        "Salary": "$75500",
+        "Payslip": "Generate Slip"
+    },
+    {
+        "Employee": "Loren Gatlin",
+        "EmployeeID": "FT-0010",
+        "image": "avatar-04.jpg",
+        "Email": "lorengatlin@example.com",
+        "JoinDate": "1 Jan 2013",
+        "Role": "Android Developer",
+        "Salary": "$55000",
+        "Payslip": "Generate Slip"
+    },
+    {
+        "Employee": "Mike Litorus",
+        "EmployeeID": "FT-0004",
+        "image": "avatar-05.jpg",
+        "Email": "mikelitorus@example.com",
+        "JoinDate": "1 Jan 2013",
+        "Role": "IOS Developer",
+        "Salary": "$59698",
+        "Payslip": "Generate Slip"
+    },
+    {
+        "Employee": "Richard Miles",
+        "EmployeeID": "FT-0002",
+        "image": "avatar-09.jpg",
+        "Email": "richardmiles@example.com",
+        "JoinDate": "1 Jan 2013",
+        "Role": "Web Developer",
+        "Salary": "$72000",
+        "Payslip": "Generate Slip"
+    },
+    {
+        "Employee": "Tarah Shropshire",
+        "EmployeeID": "FT-0011",
+        "image": "avatar-03.jpg",
+        "Email": "tarahshropshire@example.com",
+        "JoinDate": "1 Jan 2013",
+        "Role": "Android Developer",
+        "Salary": "$92400",
+        "Payslip": "Generate Slip"
+    },
+    {
+        "Employee": "Wilmer Deluna",
+        "EmployeeID": "FT-0005",
+        "image": "avatar-11.jpg",
+        "Email": "wilmerdeluna@example.com",
+        "JoinDate": "1 Jan 2013",
+        "Role": "Team Leader",
+        "Salary": "$43000",
+        "Payslip": "Generate Slip"
+    }
+]

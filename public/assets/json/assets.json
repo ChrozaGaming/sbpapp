@@ -1,0 +1,122 @@
+[
+    {
+        "AssetUser": "Richard Miles",
+        "AssetName": "Dell Laptop",
+        "AssetId": "#AST-0001",
+        "PurchaseDate": "5 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "5 Jan 2023",
+        "Amount": "$1215",
+        "Status": "Pending"
+    },
+    {
+        "AssetUser": "John Doe",
+        "AssetName": "Seagate Harddisk",
+        "AssetId": "#AST-0002",
+        "PurchaseDate": "14 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "14 Jan 2023",
+        "Amount": "$300",
+        "Status": "Approved"
+    },
+    {
+        "AssetUser": "John Smith",
+        "AssetName": "Canon Portable Printer",
+        "AssetId": "#AST-0003",
+        "PurchaseDate": "14 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "14 Jan 2023",
+        "Amount": "$2500",
+        "Status": "Returned"
+    },
+    {
+        "AssetUser": "Mike Litorus",
+        "AssetName": "Dell Laptop",
+        "AssetId": "#AST-0004",
+        "PurchaseDate": "5 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "5 Jan 2023",
+        "Amount": "$1215",
+        "Status": "Pending"
+    },
+    {
+        "AssetUser": "Wilmer Deluna",
+        "AssetName": "Seagate Harddisk",
+        "AssetId": "#AST-0005",
+        "PurchaseDate": "14 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "14 Jan 2023",
+        "Amount": "$300",
+        "Status": "Approved"
+    },
+    {
+        "AssetUser": "Jeffrey Warden",
+        "AssetName": "Canon Portable Printer",
+        "AssetId": "#AST-0006",
+        "PurchaseDate": "14 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "14 Jan 2023",
+        "Amount": "$2500",
+        "Status": "Returned"
+    },
+    {
+        "AssetUser": "Bernardo Galaviz",
+        "AssetName": "Dell Laptop",
+        "AssetId": "#AST-0007",
+        "PurchaseDate": "5 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "5 Jan 2023",
+        "Amount": "$1215",
+        "Status": "Pending"
+    },
+    {
+        "AssetUser": "Lesley Grauer",
+        "AssetName": "Seagate Harddisk",
+        "AssetId": "#AST-0008",
+        "PurchaseDate": "14 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "14 Jan 2023",
+        "Amount": "$300",
+        "Status": "Approved"
+    },
+    {
+        "AssetUser": "Jeffery Lalor",
+        "AssetName": "Canon Portable Printer",
+        "AssetId": "#AST-0009",
+        "PurchaseDate": "14 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "14 Jan 2023",
+        "Amount": "$2500",
+        "Status": "Returned"
+    },
+    {
+        "AssetUser": "Loren Gatlin",
+        "AssetName": "Dell Laptop",
+        "AssetId": "#AST-0010",
+        "PurchaseDate": "5 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "5 Jan 2023",
+        "Amount": "$1215",
+        "Status": "Pending"
+    },
+    {
+        "AssetUser": "Tarah Shropshire",
+        "AssetName": "Seagate Harddisk",
+        "AssetId": "#AST-0011",
+        "PurchaseDate": "14 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "14 Jan 2023",
+        "Amount": "$300",
+        "Status": "Approved"
+    },
+    {
+        "AssetUser": "Catherine Manseau",
+        "AssetName": "Canon Portable Printer",
+        "AssetId": "#AST-0012",
+        "PurchaseDate": "14 Jan 2023",
+        "Warranty": "12 Months",
+        "WarrantyEnd": "14 Jan 2023",
+        "Amount": "$2500",
+        "Status": "Returned"
+    }
+]

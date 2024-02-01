@@ -1,0 +1,134 @@
+[
+    {
+        "avatar": "avatar-02.jpg",
+        "name": "John Doe",
+        "role": "Web Designer",
+        "leaveType": "Medical Leave",
+        "fromDate": "27 Feb 2019",
+        "toDate": "27 Feb 2019",
+        "noOfDays": "1 day",
+        "reason": "Going to Hospital",
+        "status": "Approved"
+    },
+    {
+        "avatar": "avatar-15.jpg",
+        "name": "Buster Wigton",
+        "role": "Web Developer",
+        "leaveType": "Hospitalisation",
+        "fromDate": "15 Jan 2019",
+        "toDate": "25 Jan 2019",
+        "noOfDays": "10 days",
+        "reason": "Going to Hospital",
+        "status": "Approved"
+    },
+    {
+        "avatar": "avatar-08.jpg",
+        "name": "Catherine Manseau",
+        "role": "Web Developer",
+        "leaveType": "Maternity Leave",
+        "fromDate": "5 Jan 2019",
+        "toDate": "15 Jan 2019",
+        "noOfDays": "10 days",
+        "reason": "Going to Hospital",
+        "status": "Approved"
+    },
+    {
+        "avatar": "avatar-20.jpg",
+        "name": "Domenic Houston",
+        "role": "Web Developer",
+        "leaveType": "Casual Leave",
+        "fromDate": "10 Jan 2019",
+        "toDate": "11 Jan 2019",
+        "noOfDays": "2 days",
+        "reason": "Going to Hospital",
+        "status": "Approved"
+    },
+    {
+        "avatar": "avatar-02.jpg",
+        "name": "John Doe",
+        "role": "Web Designer",
+        "leaveType": "Casual Leave",
+        "fromDate": "9 Jan 2019",
+        "toDate": "10 Jan 2019",
+        "noOfDays": "2 days",
+        "reason": "Going to Hospital",
+        "status": "Approved"
+    },
+    {
+        "avatar": "avatar-10.jpg",
+        "name": "John Smith",
+        "role": "Android Developer",
+        "leaveType": "LOP",
+        "fromDate": "24 Feb 2019",
+        "toDate": "25 Feb 2019",
+        "noOfDays": "2 days",
+        "reason": "Personal",
+        "status": "Approved"
+    },
+    {
+        "avatar": "avatar-20.jpg",
+        "name": "Melita Faucher",
+        "role": "Web Developer",
+        "leaveType": "Casual Leave",
+        "fromDate": "13 Jan 2019",
+        "toDate": "14 Jan 2019",
+        "noOfDays": "2 days",
+        "reason": "Going to Hospital",
+        "status": "Declined"
+    },
+    {
+        "avatar": "avatar-05.jpg",
+        "name": "Mike Litorus",
+        "role": "IOS Developer",
+        "leaveType": "Paternity Leave",
+        "fromDate": "13 Feb 2019",
+        "toDate": "17 Feb 2019",
+        "noOfDays": "5 days",
+        "reason": "Going to Hospital",
+        "status": "Declined"
+    },
+    {
+        "avatar": "avatar-09.jpg",
+        "name": "Richard Miles",
+        "role": "Web Developer",
+        "leaveType": "Casual Leave",
+        "fromDate": "8 Mar 2019",
+        "toDate": "9 Mar 2019",
+        "noOfDays": "2 days",
+        "reason": "Going to Hospital",
+        "status": "New"
+    },
+    {
+        "avatar": "avatar-24.jpg",
+        "name": "Richard Parker",
+        "role": "Web Developer",
+        "leaveType": "Casual Leave",
+        "fromDate": "30 Jan 2019",
+        "toDate": "31 Jan 2019",
+        "noOfDays": "2 days",
+        "reason": "Going to Hospital",
+        "status": "New"
+    },
+    {
+        "avatar": "avatar-25.jpg",
+        "name": "Rolland Webber",
+        "role": "Web Developer",
+        "leaveType": "Casual Leave",
+        "fromDate": "7 Jan 2019",
+        "toDate": "8 Jan 2019",
+        "noOfDays": "2 days",
+        "reason": "Going to Hospital",
+        "status": "Declined"
+    },
+    {
+        "avatar": "avatar-03.jpg",
+        "name": "Tarah Shropshire",
+        "role": "Web Developer",
+        "leaveType": "Casual Leave",
+        "fromDate": "10 Jan 2019",
+        "toDate": "10 Jan 2019",
+        "noOfDays": "1 day",
+        "reason": "Going to Hospital",
+        "status": "New"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "#":1,
+        "DepartmentName":"Web Development"
+    },
+    {
+        "#":2,
+        "DepartmentName":"Application Development"
+    },
+    {
+        "#":3,
+        "DepartmentName":"IT Management"
+    },
+    {
+        "#":4,
+        "DepartmentName":"Accounts Management"
+    },
+    {
+        "#":5,
+        "DepartmentName":"Support Management"
+    },
+    {
+        "#":6,
+        "DepartmentName":"Marketing"
+    }
+]

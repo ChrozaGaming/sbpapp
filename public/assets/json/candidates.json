@@ -1,0 +1,26 @@
+[
+    {
+        "#": "1",
+        "Name": "John Doe",
+        "MobileNumber": "9876543210",
+        "Email": "johndoe@example.com",
+        "CreatedDate": "1 Jan 2013",
+        "image":"avatar-02.jpg"
+    },
+    {
+        "#": "2",
+        "Name": "Richard Miles",
+        "MobileNumber": "9876543210",
+        "Email": "richardmiles@example.com",
+        "CreatedDate": "18 Mar 2014",
+        "image":"avatar-09.jpg"
+    },
+    {
+        "#": "3",
+        "Name": "John Smith",
+        "MobileNumber": "9876543210",
+        "Email": "johnsmith@example.com",
+        "CreatedDate": "1 Apr 2014",
+        "image":"avatar-10.jpg"
+    }
+]

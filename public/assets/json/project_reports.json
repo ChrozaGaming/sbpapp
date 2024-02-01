@@ -1,0 +1,40 @@
+[
+    {
+        "#": "1",
+        "ProjectTitle": "Hospital Administration",
+        "ClientName": "Global Technologies",
+        "StartDate": "9 Jan 2021",
+        "EndDate": "10 Apr 2021",
+        "Status": "Active",
+        "image": "avatar-19.jpg",
+        "Name_1": "John Doe",
+        "Avatar_1": "avatar-02.jpg",
+        "Name_2": "Richard Miles",
+        "Avatar_2": "avatar-09.jpg",
+        "Name_3": "John Smith",
+        "Avatar_3": "avatar-10.jpg",
+        "Name_4": "Mike Litorus",
+        "Avatar_4": "avatar-05.jpg",
+        "Name_5": "+15",
+        "Avatar_5": ""
+    },
+    {
+        "#": "2",
+        "ProjectTitle": "Office Management",
+        "ClientName": "Delta Infotech",
+        "StartDate": "10 Dec 2021",
+        "EndDate": "2 May 2021",
+        "Status": "Active",
+        "image": "avatar-29.jpg",
+        "Name_1": "John Doe",
+        "Avatar_1": "avatar-02.jpg",
+        "Name_2": "Richard Miles",
+        "Avatar_2": "avatar-09.jpg",
+        "Name_3": "John Smith",
+        "Avatar_3": "avatar-10.jpg",
+        "Name_4": "Mike Litorus",
+        "Avatar_4": "avatar-05.jpg",
+        "Name_5": "+15",
+        "Avatar_5": ""
+    }
+]

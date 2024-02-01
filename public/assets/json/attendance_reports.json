@@ -1,0 +1,44 @@
+[
+    {
+        "#": "1",
+        "Date": "1 Jan 2020",
+        "ClockIn": "-",
+        "ClockOut": "-",
+        "WorkStatus": "-"
+    },
+    {
+        "#": "2",
+        "Date": "2 Jan 2020",
+        "ClockIn": "-",
+        "ClockOut": "-",
+        "WorkStatus": "-"
+    },
+    {
+        "#": "3",
+        "Date": "3 Jan 2020",
+        "ClockIn": "-",
+        "ClockOut": "-",
+        "WorkStatus": "-"
+    },
+    {
+        "#": "4",
+        "Date": "4 Jan 2020",
+        "ClockIn": "-",
+        "ClockOut": "Week Off",
+        "WorkStatus": "-"
+    },
+    {
+        "#": "5",
+        "Date": "5 Jan 2020",
+        "ClockIn": "-",
+        "ClockOut": "Week Off",
+        "WorkStatus": "-"
+    },
+    {
+        "#": "6",
+        "Date": "6 Jan 2020",
+        "ClockIn": "-",
+        "ClockOut": "-",
+        "WorkStatus": "-"
+    }
+]

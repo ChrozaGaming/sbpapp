@@ -1,0 +1,18 @@
+[
+    {
+        "No": "1",
+        "Notes": "test",
+        "CategoryName": "Project",
+        "SubCategoryName": "Project Expenses",
+        "Amount": "1000.00",
+        "RevenueDate": "06 Jan 2020"
+    },
+    {
+        "No": "2",
+        "Notes": "test",
+        "CategoryName": "Hardware",
+        "SubCategoryName": "Hardware Expenses",
+        "Amount": "1000.00",
+        "RevenueDate": "06 Jan 2020"
+    }
+]

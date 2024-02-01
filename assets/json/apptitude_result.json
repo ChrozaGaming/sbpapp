@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "jobTitle": "Web Developer",
+      "department": "Development",
+      "categoryWiseMark": {
+        "html": 1,
+        "Level1": 0
+      },
+      "totalMark": 1,
+      "status": "Action pending",
+      "profiles_image":"avatar-02.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Richard Miles",
+      "jobTitle": "Web Designer",
+      "department": "Designing",
+      "categoryWiseMark": {
+        "html": 1,
+        "Level1": 0
+      },
+      "totalMark": 1,
+      "status": "Action pending",
+      "profiles_image":"avatar-09.jpg"
+    },
+    {
+      "id": 3,
+      "name": "John Smith",
+      "jobTitle": "Android Developer",
+      "department": "Android",
+      "categoryWiseMark": {
+        "html": 1,
+        "Level1": 0
+      },
+      "totalMark": 1,
+      "status": "Action pending",
+      "profiles_image":"avatar-10.jpg"
+    }
+  ]
+  

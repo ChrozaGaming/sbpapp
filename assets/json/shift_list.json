@@ -1,0 +1,62 @@
+[
+    {
+        "number": 1,
+        "shiftName": "10'o clock Shift",
+        "minStartTime": "09:00:00 am",
+        "startTime": "10:00:00 am",
+        "maxStartTime": "10:30:00 am",
+        "minEndTime": "06:00:00 pm",
+        "endTime": "06:30:00 pm",
+        "maxEndTime": "07:00:00 pm",
+        "breakTime": "30 mins",
+        "status": "Active"
+    },
+    {
+        "number": 2,
+        "shiftName": "10:30 shift",
+        "minStartTime": "10:00:00 am",
+        "startTime": "10:30:00 am",
+        "maxStartTime": "11:00:00 am",
+        "minEndTime": "06:30:00 pm",
+        "endTime": "07:00:00 pm",
+        "maxEndTime": "07:30:00 pm",
+        "breakTime": "45 mins",
+        "status": "Active"
+    },
+    {
+        "number": 3,
+        "shiftName": "Daily Rout",
+        "minStartTime": "06:00:00 am",
+        "startTime": "06:30:00 am",
+        "maxStartTime": "07:00:00 am",
+        "minEndTime": "03:00:00 pm",
+        "endTime": "03:30:00 pm",
+        "maxEndTime": "04:00:00 pm",
+        "breakTime": "60 mins",
+        "status": "Active"
+    },
+    {
+        "number": 4,
+        "shiftName": "New Shift",
+        "minStartTime": "06:11:00 am",
+        "startTime": "06:30:00 am",
+        "maxStartTime": "08:12:00 am",
+        "minEndTime": "09:12:00 pm",
+        "endTime": "09:30:00 pm",
+        "maxEndTime": "09:45:00 pm",
+        "breakTime": "45 mins",
+        "status": "Active"
+    },
+    {
+        "number": 5,
+        "shiftName": "Recurring Shift",
+        "minStartTime": "08:30:00 am",
+        "startTime": "09:00:00 am",
+        "maxStartTime": "09:30:00 am",
+        "minEndTime": "05:30:00 pm",
+        "endTime": "06:00:00 pm",
+        "maxEndTime": "06:30:00 pm",
+        "breakTime": "60 mins",
+        "status": "Active"
+    }
+]

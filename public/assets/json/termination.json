@@ -1,0 +1,13 @@
+[
+    {
+        "#": "1",
+        "name": "John Doe",
+        "image": "avatar-02.jpg",
+        "profile_link": "profile",
+        "Department": "Web Development",
+        "TerminationType": "Misconduct",
+        "TerminationDate": "28 Feb 2019",
+        "Reason": "Lorem Ipsum Dollar",
+        "NoticeDate": "28 Feb 2019"
+    }
+]
