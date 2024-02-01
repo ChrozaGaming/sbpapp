@@ -493,6 +493,7 @@ $conn->close();
                                     </div>
                                 </a>
                             </li>
+
                             <li class="notification-message">
                                 <a href="activities.html">
                                     <div class="chat-block d-flex">

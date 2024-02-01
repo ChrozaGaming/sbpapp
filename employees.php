@@ -1880,7 +1880,7 @@ $conn->close();
 <!--                </div>-->
                 <div class="col-sm-6 col-md-3">
                     <div class="d-grid">
-                        <a href="" class="btn btn-success w-100"> Search </a>
+                        <a href="" class="btn btn-success w-100"> CARI </a>
                     </div>
                 </div>
             </div>
