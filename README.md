@@ -35,4 +35,4 @@ Aplikasi ini dilisensikan di bawah [MIT License](LICENSE).
 
 ---
 
-Dibuat dengan ❤️ oleh [Nama Anda](https://github.com/YourUsername)
+Dibuat dengan ❤️ oleh [ChrozaGaming]([https://github.com/YourUsername](https://github.com/ChrozaGaming)https://github.com/ChrozaGaming)
