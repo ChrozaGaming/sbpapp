@@ -334,7 +334,7 @@ function getTaskCountByStatus($statusName, $conn)
     $stmt->close();
 
     return $result['count'];
-}
+}//
 
 $result = $conn->query("SELECT nama, tanggal, status FROM absensi");
 
