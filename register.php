@@ -15,22 +15,24 @@ if ($conn->connect_error) {
 
 // Jika metode request adalah POST, proses informasi formulir
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $conn->real_escape_string($_POST['name']);
     $email = $conn->real_escape_string($_POST['email']);
     $password = $conn->real_escape_string($_POST['password']);
     $repeatPassword = $conn->real_escape_string($_POST['repeat_password']);
-    
+
+    // Verifikasi apakah password sama
     // Verifikasi apakah password sama
     if ($password == $repeatPassword) {
         // Enkripsi password
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-        
+
         // Periksa apakah email sudah terdaftar
         $checkEmail = $conn->query("SELECT id FROM users WHERE email='$email'");
         if ($checkEmail->num_rows > 0) {
             echo "Email sudah terdaftar!";
         } else {
             // Masukkan data ke database
-            $insert = $conn->query("INSERT INTO users (email, password) VALUES ('$email', '$hashedPassword')");
+            $insert = $conn->query("INSERT INTO users (name, email, password) VALUES ('$name', '$email', '$hashedPassword')");
             if ($insert) {
                 echo "Registrasi berhasil!";
             } else {
@@ -57,6 +59,10 @@ $conn->close();
 
 <!-- Form Registrasi -->
 <form action="register.php" method="post">
+    <div class="input-block mb-4">
+        <label class="col-form-label">Nama Lengkap<span class="mandatory">*</span></label>
+        <input name="name" class="form-control" type="text" required>
+    </div>
     <div class="input-block mb-4">
         <label class="col-form-label">Email<span class="mandatory">*</span></label>
         <input name="email" class="form-control" type="text" required>

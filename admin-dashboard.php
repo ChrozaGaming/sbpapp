@@ -12,19 +12,31 @@ $dbName = 'sbpapp';
 // Membuat koneksi
 $conn = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 
+
 // Memeriksa koneksi
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
 
-$userID = $_SESSION['user_id'];
+if (!isset($_SESSION['user_id'])) {
+    die('User ID tidak ditemukan dalam sesi');
+}
 
-// Membuat kueri untuk mengambil nama pengguna dari database
-$sql = $conn->prepare("SELECT id FROM users WHERE id = ?");
-$sql->bind_param("i", $userID);
+$sql = $conn->prepare("SELECT name FROM users WHERE id = ?");
+$sql->bind_param("i", $_SESSION['user_id']);
 $sql->execute();
 $result = $sql->get_result();
 $userData = $result->fetch_assoc();
+
+if (!$userData) {
+    die('Tidak ada data pengguna ditemukan di database');
+}
+
+if (!isset($userData['name'])) {
+    die('Tidak ada kolom name dalam data pengguna');
+}
+
+$_SESSION['name'] = $userData['name'];
 
 // Menyiapkan query untuk menghitung jumlah tugas per status berdasarkan status_id
 $query = "SELECT status_id, COUNT(*) as jumlah FROM tasks GROUP BY status_id";
@@ -341,7 +353,6 @@ $result = $conn->query("SELECT nama, tanggal, status FROM absensi");
 
 // // Menyimpan jumlah tugas per status dalam variabel
 
-$userNameDisplay = $userData ? $userData['id'] : "Guest";
 
 $conn->close();
 
@@ -2280,7 +2291,7 @@ $conn->close();
             <div class="page-header">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h3 class="page-title">Selamat datang <b>Admin</b> <?php echo $userNameDisplay; ?>!</h3>
+                        <h3 class="page-title">Selamat datang <b><?php echo $_SESSION['name']; ?></b>!</h3>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ul>

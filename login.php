@@ -12,10 +12,8 @@ if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
 
-
 // Logic login
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
     $email = $_POST['email'];
     $password = $_POST['password'];
 
@@ -28,21 +26,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         if (password_verify($password, $row['password'])) {
             session_start();
-            if ($login_success) {
 
-                $_SESSION['user_id'] = $user_id;
+            // Get user id
+            $user_id = $row['id'];
 
-                header("Location: admin-dashboard.php");
-                exit;
-            } else {
+            // Store user id in session
+            $_SESSION['user_id'] = $user_id;
 
-                // user tidak ditemukan
-                // show error message
+            var_dump($_SESSION);
 
-            }
-
-            $_SESSION['email'] = $email;
+            // Redirect to admin-dashboard.php
             header("Location: admin-dashboard.php");
+            exit;
         } else {
             $error = "Password salah";
         }
@@ -64,23 +59,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <body>
 
-    <h2>Login</h2>
+<h2>Login</h2>
 
-    <?php
-    if (isset($error)) {
-        echo '<p style="color: red;">' . $error . '</p>';
-    }
-    ?>
+<?php
+if (isset($error)) {
+    echo '<p style="color: red;">' . $error . '</p>';
+}
+?>
 
-    <form action="" method="post">
-        <input type="email" name="email" placeholder="Email" required>
-        <br><br>
-        <input type="password" name="password" placeholder="Password" required>
-        <br><br>
-        <input type="submit" value="Login">
-    </form>
+<form action="" method="post">
+    <input type="email" name="email" placeholder="Email" required>
+    <br><br>
+    <input type="password" name="password" placeholder="Password" required>
+    <br><br>
+    <input type="submit" value="Login">
+</form>
 
-    <p>Belum punya akun? <a href="register.php">Register</a></p>
+<p>Belum punya akun? <a href="register.php">Register</a></p>
 
 </body>
 
