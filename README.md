@@ -19,7 +19,7 @@ Untuk menggunakan aplikasi ini, ikuti langkah-langkah berikut:
 
 1. Clone repositori:
    ```bash
-   git clone https://github.com/YourUsername/YourRepository.git
+   git clone https://github.com/ChrozaGaming/sbpapp.git
    ```
 2. Konfigurasikan database MySQL Anda.
 3. Import file `.sql` untuk mengatur struktur database.
