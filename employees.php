@@ -465,7 +465,7 @@ $conn->close();
                                         class="menu-arrow"></span></a>
                             <ul>
                                 <li><a href="estimates.html">Estimates</a></li>
-                                <li><a href="invoices.html">Invoices</a></li>
+                                <li><a href="invoices.php">Invoices</a></li>
                                 <li><a href="payments.html">Payments</a></li>
                                 <li><a href="expenses.html">Expenses</a></li>
                                 <li><a href="provident-fund.html">Provident Fund</a></li>
@@ -851,7 +851,7 @@ $conn->close();
                         <a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span class="menu-arrow"></span></a>
                         <ul>
                             <li><a href="estimates.html">Estimates</a></li>
-                            <li><a href="invoices.html">Invoices</a></li>
+                            <li><a href="invoices.php">Invoices</a></li>
                             <li><a href="payments.html">Payments</a></li>
                             <li><a href="expenses.html">Expenses</a></li>
                             <li><a href="provident-fund.html">Provident Fund</a></li>
@@ -1492,7 +1492,7 @@ $conn->close();
                         <p>Sales</p>
                         <ul>
                             <li><a href="estimates.html">Estimates</a></li>
-                            <li><a href="invoices.html">Invoices</a></li>
+                            <li><a href="invoices.php">Invoices</a></li>
                             <li><a href="payments.html">Payments</a></li>
                             <li><a href="expenses.html">Expenses</a></li>
                             <li><a href="provident-fund.html">Provident Fund</a></li>

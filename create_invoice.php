@@ -1,19 +1,53 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "sbpapp");
+// Database connection
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "sbpapp";
 
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
 if ($conn->connect_error) {
-    die("Koneksi gagal: " . $conn->connect_error);
+    die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM projects"; // Kueri untuk mengambil data proyek
+// Perform query
+$sql = "SELECT client_name FROM clients";
 $result = $conn->query($sql);
 
-$projects = []; // Array untuk menyimpan data
+// Fetch all client names
+$clientNames = [];
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        $projects[] = $row; // Menambahkan setiap baris data ke array
+        $clientNames[] = $row['client_name'];
     }
 }
+
+$sql = "SELECT name FROM projects";
+$result = $conn->query($sql);
+
+// Fetch all project names
+$projectNames = [];
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+        $projectNames[] = $row['name'];
+    }
+}
+
+// Perform query
+$sql = "SELECT email FROM invoices";
+$result = $conn->query($sql);
+
+// Fetch all emails
+$emails = [];
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+        $emails[] = $row['email'];
+    }
+}
+
 $conn->close();
 ?>
 
@@ -25,7 +59,7 @@ $conn->close();
     <meta name="description" content="Smarthr - Bootstrap Admin Template">
     <meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
     <meta name="author" content="Dreamguys - Bootstrap Admin Template">
-    <title>Projects - HRMS admin template</title>
+    <title>Create Invoice - HRMS admin template</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -46,9 +80,6 @@ $conn->close();
 
     <!-- Datetimepicker CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
-
-    <!-- Ck Editor -->
-    <link rel="stylesheet" href="assets/css/ckeditor.css">
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -428,7 +459,7 @@ $conn->close();
                             <a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span class="menu-arrow"></span></a>
                             <ul>
                                 <li><a href="estimates.html">Estimates</a></li>
-                                <li><a href="invoices.php">Invoices</a></li>
+                                <li><a href="invoices.html">Invoices</a></li>
                                 <li><a href="payments.html">Payments</a></li>
                                 <li><a href="expenses.html">Expenses</a></li>
                                 <li><a href="provident-fund.html">Provident Fund</a></li>
@@ -770,7 +801,7 @@ $conn->close();
                     <li class="submenu">
                         <a href="#"><i class="la la-rocket"></i> <span> Projects</span> <span class="menu-arrow"></span></a>
                         <ul>
-                            <li><a class="active" href="projects.html">Projects</a></li>
+                            <li><a href="projects.html">Projects</a></li>
                             <li><a href="tasks.html">Tasks</a></li>
                             <li><a href="task-board.html">Task Board</a></li>
                         </ul>
@@ -788,7 +819,7 @@ $conn->close();
                         <a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span class="menu-arrow"></span></a>
                         <ul>
                             <li><a href="estimates.html">Estimates</a></li>
-                            <li><a href="invoices.php">Invoices</a></li>
+                            <li><a class="active" href="invoices.html">Invoices</a></li>
                             <li><a href="payments.html">Payments</a></li>
                             <li><a href="expenses.html">Expenses</a></li>
                             <li><a href="provident-fund.html">Provident Fund</a></li>
@@ -1070,7 +1101,6 @@ $conn->close();
                         </ul>
                     </li>
                 </ul>
-
             </div>
         </div>
     </div>
@@ -1091,17 +1121,17 @@ $conn->close();
 									dashboard
 								</span>
                     </a>
-                    <a class="nav-link " id="v-pills-employees-tab" title="Employees" data-bs-toggle="pill" href="#v-pills-employees" role="tab" aria-controls="v-pills-employees" aria-selected="false">
+                    <a class="nav-link" id="v-pills-employees-tab" title="Employees" data-bs-toggle="pill" href="#v-pills-employees" role="tab" aria-controls="v-pills-employees" aria-selected="false">
 								<span class="material-icons-outlined">
 									people
 								</span>
                     </a>
-                    <a class="nav-link " id="v-pills-clients-tab" title="Clients" data-bs-toggle="pill" href="#v-pills-clients" role="tab" aria-controls="v-pills-clients" aria-selected="false">
+                    <a class="nav-link" id="v-pills-clients-tab" title="Clients" data-bs-toggle="pill" href="#v-pills-clients" role="tab" aria-controls="v-pills-clients" aria-selected="false">
 								<span class="material-icons-outlined">
 									person
 								</span>
                     </a>
-                    <a class="nav-link active" id="v-pills-projects-tab" title="Projects" data-bs-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false">
+                    <a class="nav-link" id="v-pills-projects-tab" title="Projects" data-bs-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false">
 								<span class="material-icons-outlined">
 									topic
 								</span>
@@ -1131,6 +1161,7 @@ $conn->close();
 									request_quote
 								</span>
                     </a>
+
                     <a class="nav-link" id="v-pills-policies-tab" title="Policies" data-bs-toggle="pill" href="#v-pills-policies" role="tab" aria-controls="v-pills-policies" aria-selected="false">
 								<span class="material-icons-outlined">
 									verified_user
@@ -1176,7 +1207,7 @@ $conn->close();
 									web_asset
 								</span>
                     </a>
-                    <a class="nav-link" id="v-pills-jobs-tab" title="Jobs" data-bs-toggle="pill" href="#v-pills-jobs" role="tab" aria-controls="v-pills-jobs" aria-selected="false">
+                    <a class="nav-link active" id="v-pills-jobs-tab" title="Jobs" data-bs-toggle="pill" href="#v-pills-jobs" role="tab" aria-controls="v-pills-jobs" aria-selected="false">
 								<span class="material-icons-outlined">
 									work_outline
 								</span>
@@ -1316,33 +1347,33 @@ $conn->close();
                             </li>
                         </ul>
                     </div>
-                    <div class="tab-pane fade " id="v-pills-employees" role="tabpanel" aria-labelledby="v-pills-employees-tab">
+                    <div class="tab-pane fade" id="v-pills-employees" role="tabpanel" aria-labelledby="v-pills-employees-tab">
                         <p>Employees</p>
                         <ul>
                             <li><a href="employees.html">All Employees</a></li>
-                            <li><a href="holidays.html" >Holidays</a></li>
-                            <li><a href="leaves.html" >Leaves (Admin) <span class="badge rounded-pill bg-primary float-end">1</span></a></li>
-                            <li><a href="leaves-employee.html" >Leaves (Employee)</a></li>
+                            <li><a href="holidays.html">Holidays</a></li>
+                            <li><a href="leaves.html">Leaves (Admin) <span class="badge rounded-pill bg-primary float-end">1</span></a></li>
+                            <li><a href="leaves-employee.html">Leaves (Employee)</a></li>
                             <li><a href="leave-settings.html">Leave Settings</a></li>
-                            <li><a href="attendance.html"  > Attendance (Admin)</a></li>
+                            <li><a href="attendance.html">Attendance (Admin)</a></li>
                             <li><a href="attendance-employee.html">Attendance (Employee)</a></li>
-                            <li><a href="departments.html" >Departments</a></li>
+                            <li><a href="departments.html">Departments</a></li>
                             <li><a href="designations.html">Designations</a></li>
                             <li><a href="timesheet.html">Timesheet</a></li>
                             <li><a href="shift-scheduling.html">Shift & Schedule</a></li>
                             <li><a href="overtime.html">Overtime</a></li>
                         </ul>
                     </div>
-                    <div class="tab-pane fade " id="v-pills-clients" role="tabpanel" aria-labelledby="v-pills-clients-tab">
+                    <div class="tab-pane fade" id="v-pills-clients" role="tabpanel" aria-labelledby="v-pills-clients-tab">
                         <p>Clients</p>
                         <ul>
-                            <li><a href="clients.html" >Clients</a></li>
+                            <li><a href="clients.html">Clients</a></li>
                         </ul>
                     </div>
-                    <div class="tab-pane fade show active" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
+                    <div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
                         <p>Projects</p>
                         <ul>
-                            <li><a href="projects.html" class="active">Projects</a></li>
+                            <li><a href="projects.html">Projects</a></li>
                             <li><a href="tasks.html">Tasks</a></li>
                             <li><a href="task-board.html">Task Board</a></li>
                         </ul>
@@ -1363,7 +1394,7 @@ $conn->close();
                         <p>Sales</p>
                         <ul>
                             <li><a href="estimates.html">Estimates</a></li>
-                            <li><a href="invoices.php">Invoices</a></li>
+                            <li><a href="invoices.html">Invoices</a></li>
                             <li><a href="payments.html">Payments</a></li>
                             <li><a href="expenses.html">Expenses</a></li>
                             <li><a href="provident-fund.html">Provident Fund</a></li>
@@ -1456,10 +1487,10 @@ $conn->close();
                             <li><a href="assets.html"> Assets </a></li>
                         </ul>
                     </div>
-                    <div class="tab-pane fade " id="v-pills-jobs" role="tabpanel" aria-labelledby="v-pills-jobs-tab">
+                    <div class="tab-pane fade show active" id="v-pills-jobs" role="tabpanel" aria-labelledby="v-pills-jobs-tab">
                         <p>Jobs</p>
                         <ul>
-                            <li><a href="user-dashboard.html" > User Dasboard </a></li>
+                            <li><a href="user-dashboard.html" class="active"> User Dasboard </a></li>
                             <li><a href="jobs-dashboard.html"> Jobs Dasboard </a></li>
                             <li><a href="jobs.html"> Manage Jobs </a></li>
                             <li><a href="job-applicants.html"> Applied Jobs </a></li>
@@ -1671,8 +1702,6 @@ $conn->close();
         </div>
     </div>
     <!-- /Two Col Sidebar -->
-
-
     <!-- Page Wrapper -->
     <div class="page-wrapper">
 
@@ -1681,381 +1710,221 @@ $conn->close();
 
             <!-- Page Header -->
             <div class="page-header">
-                <div class="row align-items-center">
-                    <div class="col">
-                        <h3 class="page-title">Projects</h3>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3 class="page-title">Create Invoice</h3>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="admin-dashboard.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Projects</li>
+                            <li class="breadcrumb-item active">Create Invoice</li>
                         </ul>
-                    </div>
-                    <div class="col-auto float-end ms-auto">
-                        <a href="#" class="btn add-btn" data-bs-toggle="modal" data-bs-target="#create_project"><i class="fa-solid fa-plus"></i> Create Project</a>
-                        <div class="view-icons">
-                            <a href="projects.html" class="grid-view btn btn-link active"><i class="fa fa-th"></i></a>
-                            <a href="project-list.html" class="list-view btn btn-link"><i class="fa-solid fa-bars"></i></a>
-                        </div>
                     </div>
                 </div>
             </div>
             <!-- /Page Header -->
 
-            <!-- Search Filter -->
-            <div class="row filter-row">
-                <div class="col-sm-6 col-md-3">
-                    <div class="input-block mb-3 form-focus">
-                        <input type="text" class="form-control floating">
-                        <label class="focus-label">Project Name</label>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="input-block mb-3 form-focus">
-                        <input type="text" class="form-control floating">
-                        <label class="focus-label">Employee Name</label>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="input-block mb-3 form-focus select-focus">
-                        <select class="select floating">
-                            <option>Select Designation</option>
-                            <option>Web Developer</option>
-                            <option>Web Designer</option>
-                            <option>Android Developer</option>
-                            <option>Ios Developer</option>
-                        </select>
-                        <label class="focus-label">Designation</label>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <a href="#" class="btn btn-success w-100"> Search </a>
-                </div>
-            </div>
-            <!-- Search Filter -->
-
             <div class="row">
-                <?php foreach($projects as $project): ?>
-                    <div class="col-lg-4 col-sm-6 col-md-4 col-xl-3 d-flex">
-                        <div class="card w-100">
-                            <div class="card-body">
-                                <!-- Konten kartu -->
-                                <h4 class="project-title"><a href="project-view.html"><?php echo $project['name']; ?></a></h4>
-                                <small class="block text-ellipsis m-b-15">
-                                    <span class="text-xs"><?php echo $project['tasks_total'] - $project['tasks_completed']; ?></span> <span class="text-muted">open tasks, </span>
-                                    <span class="text-xs"><?php echo $project['tasks_completed']; ?></span> <span class="text-muted">tasks completed</span>
-                                </small>
-<!--                                <p class="text-muted">--><?php //echo $project['description']; // Tambahkan kolom description di tabel dan di sini ?><!--</p>-->
-
-                                <!-- Selanjutnya, tambahkan kode lain yang Anda butuhkan di sini -->
-
+                <div class="col-sm-12">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-3">
+                                <div class="input-block mb-3">
+                                    <label class="col-form-label">Client <span class="text-danger">*</span></label>
+                                    <select id="clientSelect" class="select">
+                                        <?php foreach ($clientNames as $clientName): ?>
+                                            <option><?php echo $clientName; ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="input-block mb-3">
+                                    <label class="col-form-label">Project <span class="text-danger">*</span></label>
+                                    <select class="select">
+                                        <?php foreach ($projectNames as $projectName): ?>
+                                            <option><?php echo $projectName; ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="input-block mb-3">
+                                    <label class="col-form-label">Email</label>
+                                    <input id="emailInput" class="form-control" type="email" readonly>
+                                </div>
+                            </div>
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                            <script>
+                                $(document).ready(function(){
+                                    $('#clientSelect').change(function(){
+                                        var clientName = $(this).val();
+                                        $.ajax({
+                                            url: 'get_client_email.php',
+                                            type: 'post',
+                                            data: {client_name: clientName},
+                                            success: function(response) {
+                                                $('#emailInput').val(response);
+                                            },
+                                            error: function(jqXHR, textStatus, errorThrown) {
+                                                console.log(textStatus, errorThrown);
+                                            }
+                                        });
+                                    });
+                                    // Trigger change event on page load to set the initial email
+                                    $('#clientSelect').trigger('change');
+                                });
+                            </script>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="input-block mb-3">
+                                    <label class="col-form-label">Tax</label>
+                                    <select class="select">
+                                        <option>Select Tax</option>
+                                        <option>VAT</option>
+                                        <option>GST</option>
+                                        <option>No Tax</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="input-block mb-3">
+                                    <label class="col-form-label">Client Address</label>
+                                    <textarea class="form-control" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="input-block mb-3">
+                                    <label class="col-form-label">Billing Address</label>
+                                    <textarea class="form-control" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="input-block mb-3">
+                                    <label class="col-form-label">Invoice date <span class="text-danger">*</span></label>
+                                    <div class="cal-icon">
+                                        <input class="form-control datetimepicker" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="input-block mb-3">
+                                    <label class="col-form-label">Due Date <span class="text-danger">*</span></label>
+                                    <div class="cal-icon">
+                                        <input class="form-control datetimepicker" type="text">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                <?php endforeach; ?>
-
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-white" id="addTable">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th class="col-sm-2">Item</th>
+                                            <th class="col-md-6">Description</th>
+                                            <th>Unit Cost</th>
+                                            <th>Qty</th>
+                                            <th>Amount</th>
+                                            <th> </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="tbodyone">
+                                        <tr>
+                                            <td>1</td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td>
+                                                <input class="form-control" readonly type="text">
+                                            </td>
+                                            <td><a href="javascript:void(0)" class="text-success font-18" id="addProduct" title="Add"><i class="fa-solid fa-plus"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td>
+                                                <input class="form-control" readonly type="text">
+                                            </td>
+                                            <td><a href="javascript:void(0)" class="text-danger font-18 remove" title="Remove"><i class="fa-regular fa-trash-can"></i></a></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-white">
+                                        <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-end">Total</td>
+                                            <td class="text-end pe-4">0</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="5" class="text-end">Tax</td>
+                                            <td class="text-end pr-4">
+                                                <input class="form-control text-end" value="0" readonly type="text">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="5" class="text-end">
+                                                Discount %
+                                            </td>
+                                            <td class="text-end pe-4">
+                                                <input class="form-control text-end" type="text">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="5" class="text-end pe-4">
+                                                <b>Grand Total</b>
+                                            </td>
+                                            <td class="text-end tdata-width pe-4">
+                                                <b>$ 0.00</b>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="input-block mb-3">
+                                            <label class="col-form-label">Other Information</label>
+                                            <textarea class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submit-section">
+                            <button class="btn btn-primary submit-btn m-r-10">Save & Send</button>
+                            <button class="btn btn-primary submit-btn">Save</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
         <!-- /Page Content -->
-
-        <!-- Create Project Modal -->
-        <div id="create_project" class="modal custom-modal fade" role="dialog">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Create Project</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Project Name</label>
-                                        <input class="form-control" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Client</label>
-                                        <select class="select">
-                                            <option>Global Technologies</option>
-                                            <option>Delta Infotech</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Start Date</label>
-                                        <div class="cal-icon">
-                                            <input class="form-control datetimepicker" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">End Date</label>
-                                        <div class="cal-icon">
-                                            <input class="form-control datetimepicker" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Rate</label>
-                                        <input placeholder="$50" class="form-control" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">&nbsp;</label>
-                                        <select class="select">
-                                            <option>Hourly</option>
-                                            <option>Fixed</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Priority</label>
-                                        <select class="select">
-                                            <option>High</option>
-                                            <option>Medium</option>
-                                            <option>Low</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Add Project Leader</label>
-                                        <input class="form-control" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Team Leader</label>
-                                        <div class="project-members">
-                                            <a href="#" data-bs-toggle="tooltip" title="Jeffery Lalor" class="avatar">
-                                                <img src="assets/img/profiles/avatar-16.jpg" alt="User Image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Add Team</label>
-                                        <input class="form-control" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Team Members</label>
-                                        <div class="project-members">
-                                            <a href="#" data-bs-toggle="tooltip" title="John Doe" class="avatar">
-                                                <img src="assets/img/profiles/avatar-16.jpg" alt="User Image">
-                                            </a>
-                                            <a href="#" data-bs-toggle="tooltip" title="Richard Miles" class="avatar">
-                                                <img src="assets/img/profiles/avatar-09.jpg" alt="User Image">
-                                            </a>
-                                            <a href="#" data-bs-toggle="tooltip" title="John Smith" class="avatar">
-                                                <img src="assets/img/profiles/avatar-10.jpg" alt="User Image">
-                                            </a>
-                                            <a href="#" data-bs-toggle="tooltip" title="Mike Litorus" class="avatar">
-                                                <img src="assets/img/profiles/avatar-05.jpg" alt="User Image">
-                                            </a>
-                                            <span class="all-team">+2</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="input-block mb-3">
-                                <label class="col-form-label">Description</label>
-                                <div id="editor"></div>
-                            </div>
-                            <div class="input-block mb-3">
-                                <label class="col-form-label">Upload Files</label>
-                                <input class="form-control" type="file">
-                            </div>
-                            <div class="submit-section">
-                                <button class="btn btn-primary submit-btn">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /Create Project Modal -->
-
-        <!-- Edit Project Modal -->
-        <div id="edit_project" class="modal custom-modal fade" role="dialog">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Edit Project</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Project Name</label>
-                                        <input class="form-control" value="Project Management" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Client</label>
-                                        <select class="select">
-                                            <option>Global Technologies</option>
-                                            <option>Delta Infotech</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Start Date</label>
-                                        <div class="cal-icon">
-                                            <input class="form-control datetimepicker" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">End Date</label>
-                                        <div class="cal-icon">
-                                            <input class="form-control datetimepicker" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Rate</label>
-                                        <input placeholder="$50" class="form-control" value="$5000" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">&nbsp;</label>
-                                        <select class="select">
-                                            <option>Hourly</option>
-                                            <option selected>Fixed</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Priority</label>
-                                        <select class="select">
-                                            <option selected>High</option>
-                                            <option>Medium</option>
-                                            <option>Low</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Add Project Leader</label>
-                                        <input class="form-control" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Team Leader</label>
-                                        <div class="project-members">
-                                            <a href="#" data-bs-toggle="tooltip" title="Jeffery Lalor" class="avatar">
-                                                <img src="assets/img/profiles/avatar-16.jpg" alt="User Image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Add Team</label>
-                                        <input class="form-control" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="input-block mb-3">
-                                        <label class="col-form-label">Team Members</label>
-                                        <div class="project-members">
-                                            <a href="#" data-bs-toggle="tooltip" title="John Doe" class="avatar">
-                                                <img src="assets/img/profiles/avatar-16.jpg" alt="User Image">
-                                            </a>
-                                            <a href="#" data-bs-toggle="tooltip" title="Richard Miles" class="avatar">
-                                                <img src="assets/img/profiles/avatar-09.jpg" alt="User Image">
-                                            </a>
-                                            <a href="#" data-bs-toggle="tooltip" title="John Smith" class="avatar">
-                                                <img src="assets/img/profiles/avatar-10.jpg" alt="User Image">
-                                            </a>
-                                            <a href="#" data-bs-toggle="tooltip" title="Mike Litorus" class="avatar">
-                                                <img src="assets/img/profiles/avatar-05.jpg" alt="User Image">
-                                            </a>
-                                            <span class="all-team">+2</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="input-block mb-3">
-                                <label class="col-form-label">Description</label>
-                                <textarea rows="4" class="form-control" placeholder="Enter your message here"></textarea>
-                            </div>
-                            <div class="input-block mb-3">
-                                <label class="col-form-label">Upload Files</label>
-                                <input class="form-control" type="file">
-                            </div>
-                            <div class="submit-section">
-                                <button class="btn btn-primary submit-btn">Save</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /Edit Project Modal -->
-
-        <!-- Delete Project Modal -->
-        <div class="modal custom-modal fade" id="delete_project" role="dialog">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="form-header">
-                            <h3>Delete Project</h3>
-                            <p>Are you sure want to delete?</p>
-                        </div>
-                        <div class="modal-btn delete-action">
-                            <div class="row">
-                                <div class="col-6">
-                                    <a href="javascript:void(0);" class="btn btn-primary continue-btn">Delete</a>
-                                </div>
-                                <div class="col-6">
-                                    <a href="javascript:void(0);" data-bs-dismiss="modal" class="btn btn-primary cancel-btn">Cancel</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /Delete Project Modal -->
 
     </div>
     <!-- /Page Wrapper -->
@@ -2112,7 +1981,7 @@ $conn->close();
                         <h5 class="fs-13 text-center mt-2">Two Column</h5>
                     </div>
                 </div>
-                <div class="layout-head pt-4">
+                <div class="layout-head pt-3">
                     <h5>Color Scheme</h5>
                     <h6>Choose Light or Dark Scheme.</h6>
                 </div>
@@ -2176,7 +2045,7 @@ $conn->close();
                 </div>
 
                 <div id="layout-width">
-                    <div class="layout-head pt-4">
+                    <div class="layout-head pt-3">
                         <h5>Layout Width</h5>
                         <h6>Choose Fluid or Boxed layout.</h6>
                     </div>
@@ -2203,7 +2072,7 @@ $conn->close();
                 </div>
 
                 <div id="layout-position">
-                    <div class="layout-head pt-4">
+                    <div class="layout-head pt-3">
                         <h5>Layout Position</h5>
                         <h6>Choose Fixed or Scrollable Layout Position.</h6>
                     </div>
@@ -2215,7 +2084,7 @@ $conn->close();
                         <label class="btn btn-light w-sm ms-0" for="layout-position-scrollable">Scrollable</label>
                     </div>
                 </div>
-                <div class="layout-head pt-4">
+                <div class="layout-head pt-3">
                     <h5>Topbar Color</h5>
                     <h6>Choose Light or Dark Topbar Color.</h6>
                 </div>
@@ -2241,7 +2110,7 @@ $conn->close();
                 </div>
 
                 <div id="sidebar-size">
-                    <div class="layout-head pt-4">
+                    <div class="layout-head pt-3">
                         <h5>Sidebar Size</h5>
                         <h6>Choose a size of Sidebar.</h6>
                     </div>
@@ -2279,7 +2148,7 @@ $conn->close();
                 </div>
 
                 <div id="sidebar-view">
-                    <div class="layout-head pt-4">
+                    <div class="layout-head pt-3">
                         <h5>Sidebar View</h5>
                         <h6>Choose Default or Detached Sidebar view.</h6>
                     </div>
@@ -2305,7 +2174,7 @@ $conn->close();
                     </div>
                 </div>
                 <div id="sidebar-color">
-                    <div class="layout-head pt-4">
+                    <div class="layout-head pt-3">
                         <h5>Sidebar Color</h5>
                         <h6>Choose a color of Sidebar.</h6>
                     </div>
@@ -2420,15 +2289,12 @@ $conn->close();
 <script src="assets/js/moment.min.js"></script>
 <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
 
-<!-- Ck Editor JS -->
-<script src="assets/js/ckeditor.js"></script>
-
 <!-- Theme Settings JS -->
 <script src="assets/js/layout.js"></script>
 <script src="assets/js/theme-settings.js"></script>
 <script src="assets/js/greedynav.js"></script>
-
 <!-- Custom JS -->
 <script src="assets/js/app.js"></script>
+
 </body>
 </html>
